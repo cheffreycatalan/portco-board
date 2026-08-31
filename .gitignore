@@ -1,0 +1,6 @@
+.env.local
+.last-deploy-hash
+.vercel/
+sprint-plan-*.md
+.debug-*
+node_modules/
