@@ -199,7 +199,1766 @@
 
 <script>
 const reports = {
-    "2026-08-07": {
+  "2026-09-04": {
+    "weekEnding": "4 September 2026",
+    "dataCurrent": "7 Sep 2026",
+    "note": "<strong>4 RED / 7 AMBER / 1 GREEN across 12 portcos.</strong> Data from HeyCheffy (live 7 Sep) + daily logs 31 Aug\u20134 Sep + Shiftcare AI Agents daily report (Pei Shan, 4 Sep). <strong>No ShiftCare weekly email from Abner on file this week; no Google Drive weekly tracker submissions.</strong> Datapel MYOB migration MISSED its 1 Sep P1 deadline. Shiftcare Signals confirmed live in production. Detrack first GREEN since tracking began.",
+    "summary": {
+      "red": 4,
+      "amber": 7,
+      "green": 1,
+      "total": 12
+    },
+    "completions": [
+      {
+        "portco": "Shiftcare",
+        "text": "Invoice Signals + Roster Signals confirmed LIVE in production (complete 1 Sep). Usage-stats review with Suyog/Toby to enable all remaining accounts. AI Chat: 2 of 4 original blockers fixed and verified."
+      },
+      {
+        "portco": "Shiftcare",
+        "text": "Pei Shan: Shift Coverage detection (chat, app, phone, SMS) scoping + designs completed (1 Sep). Staff/Client Signals design walkthrough held with SC engineering (3 Sep)."
+      },
+      {
+        "portco": "Datapel",
+        "text": "Francisco shipped 57 bug fixes across all milestones (21 on 31 Aug, 36 on 4 Sep); 40 bug tickets moved to Ready for UAT, 10 tickets to PR Submitted, main deployed to staging."
+      },
+      {
+        "portco": "Datapel",
+        "text": "Oracle migration meeting held with Oracle team, Pete and Bruce (4 Sep) \u2014 architecture requirements doc sent, pricing pending. 1 developer back, Sonia partially back."
+      },
+      {
+        "portco": "HRM Tool",
+        "text": "Prod support resumed \u2014 23 PRs closed (1 Sep), inefficient bots killed, fleet replicated to Codex for zero downtime. Agentic Phase 5: staging fully restored, production merged + regression tested, ALL DeepSeek APIs migrated to Xagent (3 Sep)."
+      },
+      {
+        "portco": "Xagent",
+        "text": "Platform benchmarking completed across 5 platforms (Xagent, Claude, Grokbot, Hermes, Workbuddy) with detailed analysis (3 Sep). Toby vs Viktor quality assessment completed. Model benchmarking of Xagent Templates completed (1 Sep)."
+      },
+      {
+        "portco": "Xagent",
+        "text": "Release advisory agent created in Codex \u2014 first batch of release advisories sent to Slack (4 Sep). Meta business approval resubmitted (2 Sep)."
+      },
+      {
+        "portco": "Cloud Assess",
+        "text": "Marge: Dynamic Prior Outcome dates ENG tickets closed \u2014 project completed (4 Sep). Onboarding agent scoping call with Andrew + Adam done (2 Sep); ISO policy acceptance done; first process to automate identified."
+      },
+      {
+        "portco": "TeohCapital",
+        "text": "Rhed: Portco Vault end-to-end read/write tests PASSED on every portco; write governance verified (2 Sep). Levels pack revised to 8 functions \u2014 for sign-off. Rollout on track to 25 Sep."
+      },
+      {
+        "portco": "TeohCapital",
+        "text": "Buzz relay restored on Oracle and invites re-sent (4 Sep). Repo velocity cron live. Michelle Crisologo completed first week (CA onboarding + env setup)."
+      },
+      {
+        "portco": "Personify Care",
+        "text": "Patient Account Management (PM-343) released \u2014 feedback review in progress (cleared from active board after 4 slips). Customer onboarding scoping call with Stan + Ivan done (4 Sep); agentic scoping discussion held \u2014 effort est 6 weeks."
+      },
+      {
+        "portco": "Detrack",
+        "text": "Gerard: AI Chatbot logs analysis report generated and sent (5 Aug\u20131 Sep). Retraining-data pipeline automated via Claude skills. Intercom Manual API connected to trigger CS handoff."
+      },
+      {
+        "portco": "xInference",
+        "text": "Long-overdue Website migration (since 7 Aug) and Shared AI substrate tickets cleared from the active board during the week. Issue-tracking Slack channel + auto-triage monitoring agent live (31 Aug)."
+      }
+    ],
+    "delays": [
+      {
+        "portco": "Datapel",
+        "text": "MYOB scope migration (200 company files) MISSED 1 Sep P1 deadline \u2014 still To Do. M3/M4 in review overdue (21\u201328 Aug). DWR-1639 decision overdue 24 Aug. Phase 0 event-sourced checkpoint overdue 21 Aug. Agentic WMS due 4 Sep slipped. 6 overdue."
+      },
+      {
+        "portco": "Xagent",
+        "text": "7 overdue: Cloud Assess chatbot preview P1 (28 Aug), SSH to servers P1 (14 Aug), Meta verification (21 Aug), Toby + Toby Pricing (14\u201321 Aug), Video for Agents + AI Teams Groupchat (21 Aug)."
+      },
+      {
+        "portco": "Shiftcare",
+        "text": "6 overdue: Staff Signals P1 + Client Signals scopes (both due 4 Sep), Phase 2 Roadmap (2 Sep), AI Chat widget issues P1 (28 Aug), AI Messaging for Carer app unassigned (28 Aug)."
+      },
+      {
+        "portco": "Transvirtual",
+        "text": "3 overdue: trial extension scope (21 Aug), review outcome + Adam\u2192Andrew transition (24 Aug), reports validation (19 Aug). No Friday snapshot submitted \u2014 last data 3 Sep."
+      },
+      {
+        "portco": "SIMBA",
+        "text": "AI Agents Phase 1 integration overdue 14 Aug (3 weeks). Marketing POC overdue 21 Aug. Marketing Roadmap parked."
+      },
+      {
+        "portco": "CRM Tool",
+        "text": "Phase 3 scoping + name/domain/branding decision overdue 24 Aug. 6 other items parked."
+      },
+      {
+        "portco": "TeohCapital",
+        "text": "gstack rollout overdue 21 Aug (Jack directive) \u2014 /redteam, /retro, /close-loop ports still open."
+      },
+      {
+        "portco": "xInference",
+        "text": "PM-336 Cloud Phase 2 Performance due 4 Sep \u2014 still in Review, fourth due date (31 Jul \u2192 7 Aug \u2192 24 Aug \u2192 4 Sep). Reassigned Gerard \u2192 Cheffrey."
+      },
+      {
+        "portco": "Cloud Assess",
+        "text": "Scoping of remaining ARR 3-2026 tickets due 4 Sep \u2014 in progress, slipped."
+      }
+    ],
+    "blockages": [
+      {
+        "portco": "Shiftcare / Xagent",
+        "text": "3 NEW AI Chat bugs found 4 Sep: agent fabricates data on failed tool call (Blocker), shift form discards input then replays as 3 duplicate shifts (Blocker), unanswerable follow-up stalls chat (High). Follow-up-question lock-up reproduced despite 3 Sep redeploy. Capacity load test overdue since 28 Aug."
+      },
+      {
+        "portco": "Datapel",
+        "text": "Agentic features blocked by Oracle migrations. DWR-1639 Option A vs B unanswered. M3 has 186 issues to fix; M4 has 190 outstanding \u2014 timeline requested from Peter."
+      },
+      {
+        "portco": "Xagent",
+        "text": "Meta Business Portfolio verification stuck \u2014 lease agreement not accepted, alternate approach exhausted, Michael informed. Connector display fix (#279, #255) still showing \u201cLocal\u201d instead of \u201cTeam\u201d."
+      },
+      {
+        "portco": "Cloud Assess",
+        "text": "AI-First Scoping, AI Cycle 3, AI Chat \u2014 all 3 still parked."
+      },
+      {
+        "portco": "Transvirtual",
+        "text": "Trial extension still awaiting Craig \u2014 all 3 tickets stuck."
+      },
+      {
+        "portco": "CRM Tool",
+        "text": "No branding decision \u2014 blocks Phase 3 and go-to-market."
+      },
+      {
+        "portco": "HRM Tool",
+        "text": "Prod support credit exhaustion recurred (fixed 1 Sep via Codex migration + bot optimisation). Oracle move blocked; Standalone HRM parked; UK adaption parked since 15 Aug."
+      },
+      {
+        "portco": "xInference",
+        "text": "Model API \u201cDecisions Required\u201d doc circulated (4 Sep) \u2014 exec ownership, launch boundary, infra and pricing decisions needed before customer-facing launch."
+      }
+    ],
+    "actions": [
+      {
+        "desc": "Datapel: Close MYOB scope migration (200 companies) \u2014 P1 deadline MISSED 1 Sep, escalate",
+        "owner": "Pete Rocke / Justin",
+        "pri": "HIGH",
+        "portco": "Datapel"
+      },
+      {
+        "desc": "Xagent: Fix 3 new Shiftcare AI Chat blockers (data fabrication, duplicate shifts, chat stall) + ETAs for all 5 items blocking wider release",
+        "owner": "Gerard Santos / Xagent Devs",
+        "pri": "HIGH",
+        "portco": "Xagent"
+      },
+      {
+        "desc": "Xagent: Fix Cloud Assess chatbot preview exposing internal queries \u2014 customer-facing, overdue 28 Aug",
+        "owner": "Gerard Santos",
+        "pri": "HIGH",
+        "portco": "Xagent"
+      },
+      {
+        "desc": "Shiftcare: Pete final retest of date/timezone fix Mon 7 Sep before 10am Sydney; complete usage-stats review for full Signals rollout",
+        "owner": "Pei Shan Ang",
+        "pri": "HIGH",
+        "portco": "Shiftcare"
+      },
+      {
+        "desc": "Datapel: Answer DWR-1639 stock-parcel decision (Option A vs B) and close recurring pool incident",
+        "owner": "Justin Mangulabnan",
+        "pri": "HIGH",
+        "portco": "Datapel"
+      },
+      {
+        "desc": "Transvirtual: Close trial-extension review with Craig; complete Adam\u2192Andrew transition",
+        "owner": "Julius Borja",
+        "pri": "HIGH",
+        "portco": "Transvirtual"
+      },
+      {
+        "desc": "Shiftcare: Ship Staff/Client Signals scopes + Phase 2 Roadmap (overdue 2\u20134 Sep)",
+        "owner": "Pei Shan Ang",
+        "pri": "MEDIUM",
+        "portco": "Shiftcare"
+      },
+      {
+        "desc": "Xagent: Clear 7-item overdue backlog \u2014 SSH, Meta, Toby, Video, AI Teams",
+        "owner": "Gerard Santos",
+        "pri": "MEDIUM",
+        "portco": "Xagent"
+      },
+      {
+        "desc": "Datapel: Ship WMS v2 M3/M4 \u2014 186 + 190 outstanding issues; confirm timeline with Peter",
+        "owner": "Francisco / Justin",
+        "pri": "MEDIUM",
+        "portco": "Datapel"
+      },
+      {
+        "desc": "Cloud Assess: Close ARR 3-2026 scoping (due 4 Sep); ship Activity Matrix comms + deployment (9 Sep)",
+        "owner": "Marge Lim",
+        "pri": "MEDIUM",
+        "portco": "Cloud Assess"
+      },
+      {
+        "desc": "CRM Tool: Decide name/domain/branding to unblock Phase 3 and go-to-market",
+        "owner": "Cheffrey Catalan",
+        "pri": "MEDIUM",
+        "portco": "CRM Tool"
+      },
+      {
+        "desc": "SIMBA: Close AI Agents Phase 1 integration (overdue 14 Aug); progress Marketing POC",
+        "owner": "Cheffrey / Yeohan / Gerard",
+        "pri": "MEDIUM",
+        "portco": "SIMBA"
+      },
+      {
+        "desc": "HRM Tool: Verify Agentic Phase 5 production release (deploy scheduled 4 Sep 8PM)",
+        "owner": "Cheffrey Catalan",
+        "pri": "MONITOR",
+        "portco": "HRM Tool"
+      },
+      {
+        "desc": "TeohCapital: Complete gstack rollout \u2014 port /redteam, /retro, /close-loop (Jack directive)",
+        "owner": "Cheffrey Catalan",
+        "pri": "MONITOR",
+        "portco": "TeohCapital"
+      },
+      {
+        "desc": "xInference: Close PM-336 Cloud Phase 2 Performance review (due 4 Sep); answer Model API decisions doc",
+        "owner": "Cheffrey Catalan",
+        "pri": "MONITOR",
+        "portco": "xInference"
+      }
+    ],
+    "portcos": [
+      {
+        "name": "xInference",
+        "rag": "AMBER",
+        "source": "HeyCheffy (7 Sep)",
+        "rows": [
+          {
+            "proj": "Cloud Phase 2 Performance (PM-336)",
+            "status": "Review \u2014 due 4 Sep",
+            "assignee": "Cheffrey Catalan",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "Fourth due date (31 Jul \u2192 7 Aug \u2192 24 Aug \u2192 4 Sep). Reassigned Gerard \u2192 Cheffrey this week."
+          },
+          {
+            "proj": "Website Migration to WordPress",
+            "status": "Cleared from active board this week",
+            "assignee": "Cheffrey Catalan",
+            "eta": "Closed",
+            "rag": "G",
+            "notes": "Was overdue since 7 Aug \u2014 no longer tracked as of 4 Sep."
+          },
+          {
+            "proj": "Shared AI Substrate (agent-first re-cut)",
+            "status": "Cleared from active board this week",
+            "assignee": "John Rhed Atienza",
+            "eta": "Closed",
+            "rag": "G",
+            "notes": "Was overdue 24 Aug \u2014 no longer tracked as of 4 Sep."
+          },
+          {
+            "proj": "Model API \u2014 Decisions Required",
+            "status": "Doc circulated 4 Sep",
+            "assignee": "Exec / Product / Eng",
+            "eta": "TBD",
+            "rag": "A",
+            "notes": "Exec ownership, launch boundary, infra + pricing decisions needed before customer-facing launch."
+          }
+        ],
+        "wins": [
+          "Website migration + Shared AI substrate cleared from active board. Issue-tracking Slack channel + auto-triage monitoring agent live (31 Aug). Model API decisions doc produced (4 Sep)."
+        ],
+        "blockers": [
+          "PM-336 Cloud Phase 2 Performance slipped again \u2014 due 4 Sep, still in Review.",
+          "Model API launch gated on exec/product/eng decisions."
+        ]
+      },
+      {
+        "name": "Xagent",
+        "rag": "RED",
+        "source": "HeyCheffy (7 Sep)",
+        "rows": [
+          {
+            "proj": "Cloud Assess Chatbot Preview Fix",
+            "status": "In Progress \u2014 overdue 28 Aug",
+            "assignee": "Gerard Santos",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "P1 customer-facing preview exposes internal queries."
+          },
+          {
+            "proj": "Allow SSH to Servers",
+            "status": "Review \u2014 overdue 14 Aug",
+            "assignee": "Gerard Santos",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "P1, in review 3+ weeks."
+          },
+          {
+            "proj": "Meta Business Portfolio Verification",
+            "status": "In Progress \u2014 overdue 21 Aug",
+            "assignee": "Gerard Santos",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "Lease agreement rejected; alternate approach exhausted. Resubmitted 2 Sep; Michael informed."
+          },
+          {
+            "proj": "Toby + Toby Pricing",
+            "status": "Review \u2014 overdue 14\u201321 Aug",
+            "assignee": "Cheffrey & Gerard",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "Testing ongoing with Chelsea. Toby vs Viktor assessment done; GPT 5.6 Luna token-consumption retest done."
+          },
+          {
+            "proj": "Video for Agents + AI Teams Groupchat",
+            "status": "To Do \u2014 overdue 21 Aug",
+            "assignee": "Gerard Santos",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Not started."
+          }
+        ],
+        "wins": [
+          "5-platform benchmarking completed + detailed analysis (3 Sep). Toby vs Viktor assessment done. Model benchmarking of templates done (1 Sep). Release advisory agent live \u2014 first advisories in Slack. Meta app resubmitted."
+        ],
+        "blockers": [
+          "7 overdue \u2014 largest backlog in portfolio.",
+          "3 new Shiftcare AI Chat blockers logged 4 Sep (data fabrication, duplicate shifts, chat stall).",
+          "Meta verification stuck; connector display fix (#279, #255) still wrong."
+        ]
+      },
+      {
+        "name": "Shiftcare",
+        "rag": "RED",
+        "source": "HeyCheffy (7 Sep) + AI Agents daily report (4 Sep)",
+        "rows": [
+          {
+            "proj": "Invoice + Roster Signals",
+            "status": "LIVE in production (complete 1 Sep)",
+            "assignee": "ShiftCare (Suyog/Toby)",
+            "eta": "Done",
+            "rag": "G",
+            "notes": "Usage-stats review to enable all remaining accounts. Replacement-worker enhancement building \u2014 ETA 11 Sep."
+          },
+          {
+            "proj": "AI Chat Widget Issues",
+            "status": "In Progress \u2014 overdue 28 Aug",
+            "assignee": "Gerard Santos",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "P1. 2 of 4 original blockers fixed + verified. 3 NEW bugs found 4 Sep. Follow-up fix reproduced despite 3 Sep redeploy."
+          },
+          {
+            "proj": "Staff Signals \u2014 Scopes & Designs",
+            "status": "In Progress \u2014 due 4 Sep",
+            "assignee": "Pei Shan Ang",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "P1. Design walkthrough + scopes briefing with SC engineering done 3 Sep."
+          },
+          {
+            "proj": "Client Signals \u2014 Scopes & Designs",
+            "status": "In Progress \u2014 due 4 Sep",
+            "assignee": "Pei Shan Ang",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "PRD review + prototyping support."
+          },
+          {
+            "proj": "Phase 2 Roadmap",
+            "status": "Review \u2014 overdue 2 Sep",
+            "assignee": "Pei Shan Ang",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "Realigned with Mat on planned roadmap."
+          },
+          {
+            "proj": "AI Messaging (Carer mobile app)",
+            "status": "To Do \u2014 overdue 28 Aug",
+            "assignee": "Unassigned",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Still unassigned."
+          }
+        ],
+        "wins": [
+          "Invoice + Roster Signals LIVE in production (1 Sep). Shift Coverage detection scoping + designs completed. 2 of 4 AI Chat blockers fixed + verified. Replacement-worker roster automation building (ETA 11 Sep)."
+        ],
+        "blockers": [
+          "3 new AI Chat bugs (data fabrication, duplicate shifts, chat stall) \u2014 Blocker/High, ETAs needed from Xagent.",
+          "Follow-up-question fix reproduced. Capacity load test overdue since 28 Aug.",
+          "HeidiHealth / Allied Health scoping parked since 30 Jul."
+        ]
+      },
+      {
+        "name": "Personify Care",
+        "rag": "AMBER",
+        "source": "HeyCheffy (7 Sep)",
+        "rows": [
+          {
+            "proj": "Patient Account Management (PM-343)",
+            "status": "Released \u2014 feedback review in progress",
+            "assignee": "Julius Borja",
+            "eta": "Done",
+            "rag": "G",
+            "notes": "Cleared from active board after 4 slips. Release feedback reviewed 1 Sep."
+          },
+          {
+            "proj": "Cycle 1 \u2014 Concurrent Episodes of Care (PM-274)",
+            "status": "Review \u2014 due 7 Sep",
+            "assignee": "Julius Borja",
+            "eta": "7 Sep",
+            "rag": "A",
+            "notes": "Due Monday \u2014 at risk."
+          },
+          {
+            "proj": "Customer Onboarding Agent",
+            "status": "Scoping call done 4 Sep",
+            "assignee": "John Rhed / Julius",
+            "eta": "Scope 8 Sep",
+            "rag": "G",
+            "notes": "Account provision for Julius in progress. Build sized after scope."
+          },
+          {
+            "proj": "Agentic Scoping (Xagent)",
+            "status": "Discussion held 4 Sep",
+            "assignee": "Cheffrey / Julius",
+            "eta": "TBD",
+            "rag": "A",
+            "notes": "Effort estimate 6 weeks. Onboarding flow being mapped to find AI-fiable parts."
+          }
+        ],
+        "wins": [
+          "PM-343 Patient Account Management released. Onboarding scoping call with Stan + Ivan done (4 Sep). Agentic direction discussed \u2014 6-week estimate. Login prototype refined; AI filter prototype in progress."
+        ],
+        "blockers": [
+          "PM-274 Cycle 1 due Mon 7 Sep.",
+          "No weekly tracker submission on file."
+        ]
+      },
+      {
+        "name": "Datapel",
+        "rag": "RED",
+        "source": "HeyCheffy (7 Sep)",
+        "rows": [
+          {
+            "proj": "MYOB Integration (200 companies)",
+            "status": "To Do \u2014 MISSED 1 Sep",
+            "assignee": "Pete Rocke",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "P1 deadline missed. CompanyFile scope \u2192 granular scopes migration not done."
+          },
+          {
+            "proj": "DWR-1639 Stock-Parcel Decision",
+            "status": "In Progress \u2014 overdue 24 Aug",
+            "assignee": "Justin Mangulabnan",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "P1. Option A vs B still unanswered; recurring pool incident open with Bruce."
+          },
+          {
+            "proj": "WMS v2 \u2014 M3",
+            "status": "Review \u2014 overdue 28 Aug",
+            "assignee": "Francisco & Justin",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "186 issues to fix \u2014 plan being created."
+          },
+          {
+            "proj": "WMS v2 \u2014 M4",
+            "status": "Review \u2014 overdue 21 Aug",
+            "assignee": "Francisco & Justin",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "190 outstanding issues \u2014 timeline requested from Peter."
+          },
+          {
+            "proj": "Phase 0 Event-Sourced Checkpoint",
+            "status": "To Do \u2014 overdue 21 Aug",
+            "assignee": "Justin Mangulabnan",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "P1. Reverts to Red if CRUD migrations continue."
+          },
+          {
+            "proj": "Agentic WMS",
+            "status": "In Progress \u2014 due 4 Sep, slipped",
+            "assignee": "Justin Mangulabnan",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "Blocked by Oracle migrations."
+          }
+        ],
+        "wins": [
+          "57 bug fixes shipped (21 on 31 Aug + 36 on 4 Sep); 40 tickets to Ready for UAT; 10 to PR Submitted. Oracle migration meeting held \u2014 arch doc sent. 1 dev back, Sonia partially back. Rolie: M5/M6 tickets logged, 55 stories judged."
+        ],
+        "blockers": [
+          "MYOB P1 MISSED 1 Sep \u2014 200 companies still need scope migration.",
+          "Agentic features blocked by Oracle migrations.",
+          "DWR-1639 unanswered \u2014 blocks Manage Stock Group.",
+          "DevOps Phase 3 parked since 1 Aug."
+        ]
+      },
+      {
+        "name": "Cloud Assess",
+        "rag": "AMBER",
+        "source": "HeyCheffy (7 Sep)",
+        "rows": [
+          {
+            "proj": "ARR 3-2026 Remaining Scoping",
+            "status": "In Progress \u2014 due 4 Sep",
+            "assignee": "Marge Lim",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "RTO squad kickoff held 3 Sep. ENG tickets being updated."
+          },
+          {
+            "proj": "Dynamic Prior Outcome Dates",
+            "status": "Completed 4 Sep",
+            "assignee": "Marge Lim",
+            "eta": "Done",
+            "rag": "G",
+            "notes": "ENG tickets closed, project completed."
+          },
+          {
+            "proj": "Dynamic Unit Dates",
+            "status": "In Progress \u2014 dev work underway",
+            "assignee": "Marge Lim",
+            "eta": "TBD",
+            "rag": "G",
+            "notes": "New ENG ticket for default filters."
+          },
+          {
+            "proj": "Activity Matrix",
+            "status": "Demo video + comms drafting",
+            "assignee": "Marge Lim",
+            "eta": "9 Sep",
+            "rag": "G",
+            "notes": "Project comms and deployment due 9 Sep."
+          },
+          {
+            "proj": "Customer Onboarding Agent",
+            "status": "First process to automate in progress",
+            "assignee": "John Rhed / Michelle",
+            "eta": "Scope 8 Sep",
+            "rag": "G",
+            "notes": "Scoping call done 2 Sep; ISO policy accepted. Michelle provisioned (Linear, Slack, GitHub, dev env)."
+          }
+        ],
+        "wins": [
+          "Dynamic Prior Outcome dates project completed (4 Sep). Onboarding agent scoping call done + ISO policy accepted (2 Sep). Michelle onboarded to CA. Activity Matrix demo video in draft. AI Onboarding P0 + roadmap review tickets cleared from overdue list."
+        ],
+        "blockers": [
+          "AI-First Scoping, Cycle 3, AI Chat all still parked.",
+          "ARR 3-2026 scoping due 4 Sep slipped."
+        ]
+      },
+      {
+        "name": "Transvirtual",
+        "rag": "RED",
+        "source": "HeyCheffy (3 Sep snapshot \u2014 no Friday submission)",
+        "rows": [
+          {
+            "proj": "Trial Extension + Build Scope",
+            "status": "Review \u2014 overdue 21 Aug",
+            "assignee": "Julius Borja",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Awaiting Craig."
+          },
+          {
+            "proj": "Review Outcome + Adam\u2192Andrew Transition",
+            "status": "To Do \u2014 overdue 24 Aug",
+            "assignee": "Julius Borja",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Confirm trial-extension review outcome with Craig; complete account transition."
+          },
+          {
+            "proj": "Reports Requirement Validation",
+            "status": "To Do \u2014 overdue 19 Aug",
+            "assignee": "Julius Borja",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Decide which of 2 proposed versions to put forward."
+          }
+        ],
+        "wins": [
+          "TV 2.0 update meeting with Andrew scheduled (4 Sep). Portco Vault session booked 7 Sep \u2014 implementation due 9 Sep."
+        ],
+        "blockers": [
+          "All 3 tickets stuck awaiting Craig.",
+          "No Friday snapshot submitted \u2014 last data 3 Sep."
+        ]
+      },
+      {
+        "name": "Detrack",
+        "rag": "GREEN",
+        "source": "HeyCheffy (7 Sep) + daily logs",
+        "rows": [
+          {
+            "proj": "AI Chatbot Production",
+            "status": "Running via Xagent",
+            "assignee": "Gerard Santos",
+            "eta": "Live",
+            "rag": "G",
+            "notes": "Weekly logs analysis report sent (5 Aug\u20131 Sep)."
+          },
+          {
+            "proj": "Chatbot Retraining Pipeline",
+            "status": "Automated via Claude skills",
+            "assignee": "Gerard Santos",
+            "eta": "Done",
+            "rag": "G",
+            "notes": "Retraining data generated from validated logs; weekly report initial assessment also automated."
+          },
+          {
+            "proj": "Intercom CS Handoff",
+            "status": "Connecting Intercom Manual API",
+            "assignee": "Gerard Santos",
+            "eta": "TBD",
+            "rag": "G",
+            "notes": "Triggers Intercom when user requests human CS. Next-steps call with Andrew being scheduled."
+          },
+          {
+            "proj": "Onboarding Agent",
+            "status": "In progress \u2014 target 14 Oct",
+            "assignee": "Darryl / Andrew",
+            "eta": "14 Oct",
+            "rag": "G",
+            "notes": "Latest pack reviewed; Darryl guided on agentic approach."
+          }
+        ],
+        "wins": [
+          "AI Chatbot live in prod via Xagent. Weekly logs analysis report sent. Retraining pipeline automated (Claude skills). Intercom API hookup for CS handoff. MCP integration docs sent to Ed."
+        ],
+        "blockers": [
+          "Xagent temporary downtimes affected reporting.",
+          "Token Optimisation + Monitoring parked."
+        ]
+      },
+      {
+        "name": "CRM Tool",
+        "rag": "AMBER",
+        "source": "HeyCheffy (7 Sep)",
+        "rows": [
+          {
+            "proj": "Phase 3 Scoping + Branding Decision",
+            "status": "To Do \u2014 overdue 24 Aug",
+            "assignee": "Cheffrey Catalan",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "P2. Close Phase 3 scoping + prototype (overdue 14 Aug); decide name/domain/branding."
+          },
+          {
+            "proj": "Phase 3 Prototype & Scoping",
+            "status": "Parked \u2014 due 11 Sep",
+            "assignee": "Cheffrey & Marge",
+            "eta": "Parked",
+            "rag": "A",
+            "notes": "Contacts, Tickets, CRM Reporting, Gym industry improvements."
+          },
+          {
+            "proj": "MCP / Shiftcare Integration / MVP Ticketing / AI-First UI",
+            "status": "Parked",
+            "assignee": "Marge / Cheffrey",
+            "eta": "Parked",
+            "rag": "A",
+            "notes": "4 items parked."
+          }
+        ],
+        "wins": [
+          "CRM progress catch-up held (Chelsea/Marge) \u2014 game plan + next steps identified."
+        ],
+        "blockers": [
+          "Branding decision still pending \u2014 blocks go-to-market.",
+          "6 items parked."
+        ]
+      },
+      {
+        "name": "SIMBA",
+        "rag": "AMBER",
+        "source": "HeyCheffy (7 Sep)",
+        "rows": [
+          {
+            "proj": "AI Agents Phase 1 Integration",
+            "status": "In Progress \u2014 overdue 14 Aug",
+            "assignee": "Cheffrey & Yeohan",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "3 weeks overdue. Resell pack sent \u2014 awaiting SIMBA-side integration."
+          },
+          {
+            "proj": "Marketing POC",
+            "status": "In Progress \u2014 overdue 21 Aug",
+            "assignee": "Gerard Santos",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "Marketing Roadmap parked."
+          }
+        ],
+        "wins": [
+          "No new submission this week \u2014 resell pack sent last week; awaiting SIMBA-side integration steps."
+        ],
+        "blockers": [
+          "Phase 1 integration 3 weeks overdue.",
+          "Marketing POC overdue 21 Aug."
+        ]
+      },
+      {
+        "name": "HRM Tool",
+        "rag": "AMBER",
+        "source": "HeyCheffy (7 Sep) + daily logs",
+        "rows": [
+          {
+            "proj": "Agentic Phase 5",
+            "status": "Staging restored + regression tested; deploy scheduled 4 Sep 8PM",
+            "assignee": "Cheffrey Catalan",
+            "eta": "4 Sep",
+            "rag": "A",
+            "notes": "Production merged into Phase 5. ALL DeepSeek APIs migrated to Xagent. Release confirmation pending."
+          },
+          {
+            "proj": "Prod Support Bots",
+            "status": "Resumed \u2014 23 PRs closed 1 Sep",
+            "assignee": "Cheffrey Catalan",
+            "eta": "Done",
+            "rag": "G",
+            "notes": "Credit exhaustion fixed: bots replicated to Codex, inefficient bots killed, pstack installed."
+          },
+          {
+            "proj": "Move to Cheaper Cloud (Oracle)",
+            "status": "Blocked",
+            "assignee": "Cheffrey Catalan",
+            "eta": "Blocked",
+            "rag": "A",
+            "notes": "Production move blocked."
+          },
+          {
+            "proj": "Standalone HRM",
+            "status": "Parked \u2014 new framework planned",
+            "assignee": "Cheffrey Catalan",
+            "eta": "Parked",
+            "rag": "A",
+            "notes": "Will split into smaller chunks, release more frequently."
+          }
+        ],
+        "wins": [
+          "Prod support resumed \u2014 23 PRs closed, fleet replanned with Codex handoff (0 downtime). Phase 5 staging fully back \u2014 production merged, regression tested, ALL DeepSeek APIs migrated to Xagent."
+        ],
+        "blockers": [
+          "Credit exhaustion recurred (fixed 1 Sep). Oracle move blocked. UK adaption parked since 15 Aug."
+        ]
+      },
+      {
+        "name": "TeohCapital",
+        "rag": "AMBER",
+        "source": "HeyCheffy (7 Sep) + daily logs",
+        "rows": [
+          {
+            "proj": "Portco Vaults (per-portco)",
+            "status": "E2E read/write tests PASSED on every portco",
+            "assignee": "John Rhed Atienza",
+            "eta": "Rollout to 25 Sep",
+            "rag": "G",
+            "notes": "Write governance verified. Levels pack revised to 8 functions \u2014 for sign-off. Cards sync 9 Sep."
+          },
+          {
+            "proj": "gstack Rollout (Jack directive)",
+            "status": "In Progress \u2014 overdue 21 Aug",
+            "assignee": "Cheffrey Catalan",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "P1. Install + run /office-hours, port /redteam, /retro, /close-loop."
+          },
+          {
+            "proj": "Buzz Relay",
+            "status": "Restored on Oracle",
+            "assignee": "Cheffrey Catalan",
+            "eta": "Done",
+            "rag": "G",
+            "notes": "Railway trial expired \u2014 moved to Oracle; invites re-sent."
+          },
+          {
+            "proj": "Receptionist Agent",
+            "status": "Scoping started",
+            "assignee": "Cheffrey Catalan",
+            "eta": "TBD",
+            "rag": "G",
+            "notes": "Competitor analysis + architecture planning with Hermes."
+          }
+        ],
+        "wins": [
+          "Portco Vault E2E tests passed on every portco + write governance verified. Levels pack (8 functions) for sign-off. Buzz relay restored. Repo velocity cron live. Michelle's first week done."
+        ],
+        "blockers": [
+          "gstack rollout overdue 21 Aug (Jack directive)."
+        ]
+      }
+    ]
+  },
+  "2026-08-29": {
+    "weekEnding": "29 August 2026",
+    "dataCurrent": "31 Aug 2026",
+    "note": "<strong>5 RED / 7 AMBER / 0 GREEN across 12 portcos.</strong> Data from HeyCheffy (live 31 Aug) + daily logs. Shiftcare now RED on 7 overdue items including Phase 2 roadmap delays. Transvirtual RED on trial-extension impasse. Datapel 12 overdue \u2014 worst in portfolio. No Google Drive weekly tracker submissions on file.",
+    "summary": {
+      "red": 5,
+      "amber": 7,
+      "green": 0,
+      "total": 12
+    },
+    "completions": [
+      {
+        "portco": "Datapel",
+        "text": "Francisco shipped 48 bug fixes across all milestones (21 on 31 Aug, 27 on 28 Aug), merged PRs, deployed main to staging."
+      },
+      {
+        "portco": "Datapel",
+        "text": "Justin: feature status automation live \u2014 85/145 features auto-updated, orphan bug triage (82 bugs attached to features), DWR dashboard fix deployed."
+      },
+      {
+        "portco": "Datapel",
+        "text": "Rolie: 73 bugs raised, 3 features fully tested (Packaging Config, Email Confirmations, Create/View/Update). 8 stories covered."
+      },
+      {
+        "portco": "TeohCapital",
+        "text": "Rhed: Portco Brain Architecture approved. Per-portco Xagent accounts elevated. GitHub Read/Write agents in build. DevOps Rev 9 live and verified."
+      },
+      {
+        "portco": "Shiftcare",
+        "text": "Pei Shan: AI Rostering discussion with Karan. New Shift Coverage detection project scoping started. Customer AI/MCP feature brainstorm held."
+      },
+      {
+        "portco": "Personify Care",
+        "text": "Julius: Personify release checklist reviewed. Transvirtual prototype updated to match approved design and sent to Craig."
+      },
+      {
+        "portco": "SIMBA",
+        "text": "Cheffrey: SIMBA Xagent resell pack consolidated and sent. Ready for next integration steps on SIMBA side."
+      },
+      {
+        "portco": "TeohCapital",
+        "text": "New hire Michelle Crisologo started 31 Aug (Ruby background). Assigned to Cloud Assess onboarding project and Xagent familiarisation."
+      },
+      {
+        "portco": "Xagent",
+        "text": "Cheffrey: Toby pricing follow-up with Chris; Chelsea running initial testing. OW feedback reviewed and detailed findings raised to devs."
+      },
+      {
+        "portco": "Cloud Assess",
+        "text": "Cheffrey: Agentic scoping meeting booked for Wed. AI Onboarding follow-up with Adam \u2014 Michelle to help starting this week."
+      }
+    ],
+    "delays": [
+      {
+        "portco": "Datapel",
+        "text": "WMS v2 M2/M3/M4 all overdue (21-28 Aug). Phase 0 event-sourced adoption checkpoint missed 21 Aug. 12 total overdue \u2014 worst in portfolio."
+      },
+      {
+        "portco": "Datapel",
+        "text": "DevOps Phase 3 Remediation + Remediator parked since 1 Aug. DWR-1639 stock-parcel decision overdue 24 Aug. MYOB integration due 1 Sep \u2014 tomorrow."
+      },
+      {
+        "portco": "Xagent",
+        "text": "10 overdue: Cloud Assess chatbot preview (customer-facing, overdue 28 Aug), Performance Testing (28 Aug), Toby (14 Aug), HubSpot (12 Aug), SSH/Billing/Meta/Toby-pricing all overdue."
+      },
+      {
+        "portco": "Shiftcare",
+        "text": "7 overdue: Roster Signals pay-rate gap detection (28 Aug), AI in Client Timeline (21 Aug), AI in Messaging (28 Aug), Staff/Client Signals Phase 2 (21 Aug), Phase 2 Roadmap (24 Aug), AI Chat widget issues (28 Aug)."
+      },
+      {
+        "portco": "Cloud Assess",
+        "text": "AI for customer Digitization P0 overdue 14 Aug. Q3/Q4 roadmap review overdue 3 Aug. Scoping remaining tickets overdue 21 Aug. AI-First scoping, Cycle 3, AI Chat all parked."
+      },
+      {
+        "portco": "Transvirtual",
+        "text": "3 overdue: Reports requirement validation (19 Aug), trial-extension review + Adam\u2192Andrew transition (24 Aug), trial extension scope (21 Aug). All 3 stuck."
+      },
+      {
+        "portco": "CRM Tool",
+        "text": "Phase 3 scoping + prototype parked and overdue 14 Aug. Name/domain/branding decision overdue 24 Aug. MCP, Shiftcare integration, MVP Ticketing, AI-First UI/UX all parked."
+      },
+      {
+        "portco": "SIMBA",
+        "text": "AI Agents Phase 1 integration overdue 14 Aug. Marketing POC pending. Marketing Roadmap parked."
+      },
+      {
+        "portco": "xInference",
+        "text": "Website migration to WordPress overdue since 7 Aug (months past due). Shared AI substrate overdue 24 Aug \u2014 blocked since 12 Aug with no stated cause."
+      }
+    ],
+    "blockages": [
+      {
+        "portco": "Datapel",
+        "text": "MYOB integration: 200 company files need scope migration by 1 Sep (tomorrow) \u2014 P1. DWR-1639 Option A vs B decision still unanswerd."
+      },
+      {
+        "portco": "Xagent",
+        "text": "Cloud Assess chatbot preview exposing internal queries \u2014 customer-facing, overdue. 10-item backlog. Meta Business Portfolio verification stuck."
+      },
+      {
+        "portco": "Shiftcare",
+        "text": "7 overdue items across AI agents pipeline \u2014 Phase 2 roadmap, Staff/Client Signals, AI Messaging, AI Chat widget all slipping. HeidiHealth scoping parked since 30 Jul."
+      },
+      {
+        "portco": "Cloud Assess",
+        "text": "AI-First Scoping, AI Cycle 3, AI Chat \u2014 all 3 blocked/parked. AI Onboarding P0 overdue 14 Aug. Source code access still an issue."
+      },
+      {
+        "portco": "Transvirtual",
+        "text": "Trial extension still in Review \u2014 awaiting Craig. Reports requirement validation unspoken. Adam\u2192Andrew transition incomplete."
+      },
+      {
+        "portco": "CRM Tool",
+        "text": "6 items parked (Phase 3 scoping, prototype, MCP, Shiftcare integration, MVP Ticketing, AI-First UI/UX). No branding decision \u2014 blocks go-to-market."
+      },
+      {
+        "portco": "HRM Tool",
+        "text": "UK adaption parked since 15 Aug. Standalone HRM parked. Prod support running out of credits \u2014 needs optimization."
+      }
+    ],
+    "actions": [
+      {
+        "desc": "Datapel: Close MYOB scope migration (200 companies) by 1 Sep \u2014 P1 deadline tomorrow",
+        "owner": "Pete Rocke / Justin",
+        "pri": "HIGH",
+        "portco": "Datapel"
+      },
+      {
+        "desc": "Datapel: Answer DWR-1639 stock-parcel decision (Option A vs B) and close recurring pool incident",
+        "owner": "Justin Mangulabnan",
+        "pri": "HIGH",
+        "portco": "Datapel"
+      },
+      {
+        "desc": "Xagent: Fix Cloud Assess chatbot preview exposing internal queries \u2014 customer-facing",
+        "owner": "Gerard Santos / Xagent Devs",
+        "pri": "HIGH",
+        "portco": "Xagent"
+      },
+      {
+        "desc": "Shiftcare: Deploy Roster Signals pay-rate gap detection to production (review complete)",
+        "owner": "Pei Shan Ang",
+        "pri": "HIGH",
+        "portco": "Shiftcare"
+      },
+      {
+        "desc": "Cloud Assess: Unblock AI onboarding (P0, overdue 14 Aug) \u2014 align on source code access",
+        "owner": "John Rhed / Cheffrey",
+        "pri": "HIGH",
+        "portco": "Cloud Assess"
+      },
+      {
+        "desc": "Transvirtual: Close trial extension review with Craig, complete Adam\u2192Andrew transition",
+        "owner": "Julius Borja",
+        "pri": "HIGH",
+        "portco": "Transvirtual"
+      },
+      {
+        "desc": "Shiftcare: Ship Phase 2 Roadmap + Staff/Client Signals foundation (both overdue)",
+        "owner": "Pei Shan Ang",
+        "pri": "MEDIUM",
+        "portco": "Shiftcare"
+      },
+      {
+        "desc": "Xagent: Clear 10-item overdue backlog \u2014 start with Performance Testing + Toby",
+        "owner": "Gerard Santos",
+        "pri": "MEDIUM",
+        "portco": "Xagent"
+      },
+      {
+        "desc": "CRM Tool: Decide name/domain/branding to unblock Phase 3 and go-to-market",
+        "owner": "Cheffrey Catalan",
+        "pri": "MEDIUM",
+        "portco": "CRM Tool"
+      },
+      {
+        "desc": "SIMBA: Close AI Agents Phase 1 integration (overdue 14 Aug) \u2014 deploy to staging",
+        "owner": "Yeohan Norona / Cheffrey",
+        "pri": "MEDIUM",
+        "portco": "SIMBA"
+      },
+      {
+        "desc": "Datapel: Ship WMS v2 M2/M3/M4 \u2014 all overdue, clear the review backlog",
+        "owner": "Francisco / Justin / Toby",
+        "pri": "MEDIUM",
+        "portco": "Datapel"
+      },
+      {
+        "desc": "xInference: Close website migration to WordPress (overdue since 7 Aug)",
+        "owner": "Cheffrey Catalan",
+        "pri": "MEDIUM",
+        "portco": "xInference"
+      },
+      {
+        "desc": "HRM Tool: Fix prod support credit exhaustion \u2014 optimize agents, migrate to Codex",
+        "owner": "Cheffrey Catalan",
+        "pri": "MEDIUM",
+        "portco": "HRM Tool"
+      },
+      {
+        "desc": "TeohCapital: Complete gstack rollout \u2014 port /redteam, /retro, /close-loop (Jack directive)",
+        "owner": "Cheffrey Catalan",
+        "pri": "MONITOR",
+        "portco": "TeohCapital"
+      },
+      {
+        "desc": "Personify Care: Confirm PM-343 review outcome, chase missing weekly tracker",
+        "owner": "Julius Borja",
+        "pri": "MONITOR",
+        "portco": "Personify Care"
+      }
+    ],
+    "portcos": [
+      {
+        "name": "xInference",
+        "rag": "AMBER",
+        "source": "HeyCheffy (31 Aug)",
+        "rows": [
+          {
+            "proj": "Website Migration to WordPress",
+            "status": "In Progress \u2014 overdue 7 Aug",
+            "assignee": "Cheffrey Catalan",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Months past due with no completion note."
+          },
+          {
+            "proj": "Shared AI Substrate (agent-first re-cut)",
+            "status": "In Progress \u2014 overdue 24 Aug",
+            "assignee": "John Rhed Atienza",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Blocked since 12 Aug with no stated cause. Was due 16 Aug originally."
+          },
+          {
+            "proj": "Cloud Phase 2 Performance (PM-336)",
+            "status": "Review \u2014 overdue 24 Aug",
+            "assignee": "Gerard Santos",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "Third due-date slip (31 Jul \u2192 7 Aug \u2192 24 Aug). Performance testing done, awaiting closure."
+          }
+        ],
+        "wins": [
+          "SOC II compliance ticket added. Stripe billing in progress. Trust Centre page completed."
+        ],
+        "blockers": [
+          "Shared AI substrate blocked with no stated cause \u2014 due date passed 24 Aug.",
+          "WordPress migration months past due \u2014 no owner push visible."
+        ]
+      },
+      {
+        "name": "Xagent",
+        "rag": "RED",
+        "source": "HeyCheffy (31 Aug)",
+        "rows": [
+          {
+            "proj": "Cloud Assess Chatbot Preview Fix",
+            "status": "In Progress \u2014 overdue 28 Aug",
+            "assignee": "Gerard Santos",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Customer-facing preview exposes internal queries. CA certification also gating."
+          },
+          {
+            "proj": "Overdue Review Stack (10 items)",
+            "status": "Review/To Do \u2014 10 overdue, Aug 12-28",
+            "assignee": "Gerard Santos",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Performance Testing, Toby, HubSpot, Billing, SSH, Meta, AI Teams, Video \u2014 biggest backlog in portfolio."
+          },
+          {
+            "proj": "Toby Pricing + Workstream",
+            "status": "In Progress/Review \u2014 overdue 14-21 Aug",
+            "assignee": "Cheffrey & Gerard",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "Pricing finalised. Chelsea running initial testing 31 Aug. Usage tracking with Chris Qin."
+          },
+          {
+            "proj": "Marketing + Support Adoption",
+            "status": "8 portcos engaged",
+            "assignee": "John Balbastro / Summer",
+            "eta": "Ongoing",
+            "rag": "G",
+            "notes": "SIMBA Xagent resell pack sent. Personify demo booked. OW feedback reviewed."
+          }
+        ],
+        "wins": [
+          "SIMBA Xagent resell pack consolidated and sent. Toby pricing finalised. Chelsea running testing. Marketing adoption across 8 portcos with zero open blockers."
+        ],
+        "blockers": [
+          "Cloud Assess chatbot preview exposing internal queries \u2014 customer-facing, overdue.",
+          "10-item overdue stack \u2014 largest backlog in portfolio.",
+          "Meta Business Portfolio verification stuck since 21 Aug."
+        ]
+      },
+      {
+        "name": "Shiftcare",
+        "rag": "RED",
+        "source": "HeyCheffy (31 Aug)",
+        "rows": [
+          {
+            "proj": "Roster Signals \u2014 Pay-Rate Gap Detection",
+            "status": "Review \u2014 overdue 28 Aug",
+            "assignee": "Pei Shan Ang",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "Review complete, needs deploy. First pay-rate detection feature."
+          },
+          {
+            "proj": "AI in Client Timeline \u2014 Scoping",
+            "status": "In Progress \u2014 overdue 21 Aug",
+            "assignee": "Pei Shan Ang",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "AI in Client Timeline designs in progress."
+          },
+          {
+            "proj": "AI Messaging (Reply Assist / Translate / Catch-Up)",
+            "status": "Review/To Do \u2014 overdue 21-28 Aug",
+            "assignee": "Pei Shan / Unassigned",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Carer mobile app messaging unassigned. Reply Assist scoping in Review."
+          },
+          {
+            "proj": "Phase 2 Roadmap + Staff/Client Signals",
+            "status": "To Do \u2014 overdue 21-24 Aug",
+            "assignee": "Pei Shan Ang",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Phase 2 roadmap + Signals foundation both overdue. New Shift Coverage detection scoping started."
+          }
+        ],
+        "wins": [
+          "AI Rostering discussion held with Karan. Customer AI/MCP feature brainstorm completed. New Shift Coverage detection project scoping started."
+        ],
+        "blockers": [
+          "7 overdue items \u2014 Phase 2 roadmap, Staff/Client Signals, AI Messaging, AI Chat widget, Client Timeline all slipping.",
+          "HeidiHealth / Allied Health scoping parked since 30 Jul.",
+          "AI Chat widget issues still in progress \u2014 Gerard coordinating with SC devs."
+        ]
+      },
+      {
+        "name": "Personify Care",
+        "rag": "AMBER",
+        "source": "HeyCheffy (31 Aug)",
+        "rows": [
+          {
+            "proj": "Patient Account Management (PM-343)",
+            "status": "In Progress \u2014 overdue 24 Aug",
+            "assignee": "Julius Borja",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Slipped multiple times (23 Jul \u2192 7 Aug \u2192 14 Aug \u2192 24 Aug). Review outcome unconfirmed."
+          },
+          {
+            "proj": "Cycle 2 Items (PDF, Registration, EMR)",
+            "status": "In Progress \u2014 due 31 Aug (today)",
+            "assignee": "Julius Borja",
+            "eta": "31 Aug",
+            "rag": "A",
+            "notes": "Patient PDF Enhancements, First Name Registration, Bulk Upload to EMR, Global Patient Search \u2014 all due today."
+          },
+          {
+            "proj": "Agentic Scoping + AI Onboarding",
+            "status": "Meeting booked with Stan",
+            "assignee": "Cheffrey / Julius",
+            "eta": "TBD",
+            "rag": "A",
+            "notes": "Agentic scoping follow-up. AI Onboarding reached out to Stan/Ivan."
+          }
+        ],
+        "wins": [
+          "Release checklist reviewed and refined. Login requirements aligned. Transvirtual prototype updated to approved design."
+        ],
+        "blockers": [
+          "PM-343 slipped 4 times \u2014 outcome still unconfirmed.",
+          "4 Cycle 2 items due today (31 Aug) \u2014 status unknown.",
+          "Missing weekly tracker submission."
+        ]
+      },
+      {
+        "name": "Datapel",
+        "rag": "RED",
+        "source": "HeyCheffy (31 Aug)",
+        "rows": [
+          {
+            "proj": "WMS v2 \u2014 M2/M3/M4",
+            "status": "Review \u2014 all overdue (21-28 Aug)",
+            "assignee": "Francisco & Justin",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "M2 overdue 21 Aug, M3 overdue 28 Aug, M4 overdue 21 Aug. Francisco shipped 48 bug fixes across milestones."
+          },
+          {
+            "proj": "DevOps Agent Phase 3",
+            "status": "Parked \u2014 Phase 3 overdue 1 Aug, Remediator overdue 24 Aug",
+            "assignee": "John Rhed Atienza",
+            "eta": "Parked",
+            "rag": "R",
+            "notes": "Phase 1/2 straggler tasks also overdue (3 Aug, 7 Aug). Rev 9 live and verified."
+          },
+          {
+            "proj": "DWR-1639 Stock-Parcel Decision",
+            "status": "To Do \u2014 overdue 24 Aug",
+            "assignee": "Justin Mangulabnan",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Option A (real stored parcel) vs Option B. Blocks Manage Stock Group. Awaiting Pete/Justin/Francisco."
+          },
+          {
+            "proj": "MYOB Integration (200 companies)",
+            "status": "To Do \u2014 due 1 Sep (tomorrow)",
+            "assignee": "Pete Rocke",
+            "eta": "1 Sep",
+            "rag": "R",
+            "notes": "P1: migrate CompanyFile scope to granular scopes before deadline. 200 company files."
+          }
+        ],
+        "wins": [
+          "48 bug fixes shipped in 2 days (Francisco). Feature status automation live \u2014 85/145 features updated (Justin). 73 bugs raised, 3 features tested (Rolie). Orphan bug triage: 82 bugs attached."
+        ],
+        "blockers": [
+          "MYOB integration deadline tomorrow (1 Sep) \u2014 200 companies need scope migration.",
+          "DWR-1639 decision unanswered \u2014 blocks Manage Stock Group.",
+          "M2/M3/M4 all overdue \u2014 12 total overdue items.",
+          "Phase 3 DevOps on hold \u2014 Board decision needed."
+        ]
+      },
+      {
+        "name": "Cloud Assess",
+        "rag": "RED",
+        "source": "HeyCheffy (31 Aug)",
+        "rows": [
+          {
+            "proj": "AI for Customer Digitization / Onboarding",
+            "status": "In Progress \u2014 P0 overdue 14 Aug",
+            "assignee": "John Rhed Atienza",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "P0 ticket months overdue. Michelle (new hire, Ruby background) assigned to help. Meeting booked Wed."
+          },
+          {
+            "proj": "Agentic Scoping + ARR 3-2026",
+            "status": "Scoping in progress \u2014 overdue 21 Aug",
+            "assignee": "Marge Lim / Cheffrey",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "First agentic function identified. Meeting booked Wed. Scoping remaining tickets overdue 21 Aug."
+          },
+          {
+            "proj": "Q3/Q4 Roadmap + AI Chat/Cycle 3",
+            "status": "Parked/To Do \u2014 roadmap overdue 3 Aug",
+            "assignee": "Marge Lim",
+            "eta": "Parked",
+            "rag": "R",
+            "notes": "AI-First Scoping, AI Cycle 3, AI Chat \u2014 all 3 blocked/parked. Roadmap review overdue since 3 Aug."
+          }
+        ],
+        "wins": [
+          "First agentic function identified. Meeting booked for Wed. New hire Michelle assigned to CA onboarding. OW feedback reviewed with detailed findings."
+        ],
+        "blockers": [
+          "AI Onboarding P0 overdue 14 Aug. AI-First Scoping, Cycle 3, AI Chat all parked. Source code access still unresolved.",
+          "Roadmap review overdue since 3 Aug. Q3/Q4 visibility missing."
+        ]
+      },
+      {
+        "name": "Transvirtual",
+        "rag": "RED",
+        "source": "HeyCheffy (31 Aug)",
+        "rows": [
+          {
+            "proj": "Trial Extension + Scope",
+            "status": "Review \u2014 overdue 21 Aug",
+            "assignee": "Julius Borja",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Trial extension decision awaiting Craig. Adam\u2192Andrew transition incomplete."
+          },
+          {
+            "proj": "Reports Requirement Validation",
+            "status": "To Do \u2014 overdue 19 Aug",
+            "assignee": "Julius Borja",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "2 proposed versions \u2014 needs decision on which to put forward."
+          }
+        ],
+        "wins": [
+          "Transvirtual prototype updated to match approved design and sent to Craig. Julius aligned with team on approach."
+        ],
+        "blockers": [
+          "Trial extension still in Review \u2014 awaiting Craig. Adam\u2192Andrew account transition not done.",
+          "Reports validation unspoken \u2014 2 versions waiting on decision. All 3 tickets overdue."
+        ]
+      },
+      {
+        "name": "Detrack",
+        "rag": "AMBER",
+        "source": "HeyCheffy (31 Aug)",
+        "rows": [
+          {
+            "proj": "AI Chat \u2192 Xagent Transition (PM-322)",
+            "status": "In Progress \u2014 due 28 Aug",
+            "assignee": "Gerard Santos",
+            "eta": "28 Aug",
+            "rag": "A",
+            "notes": "Transition push overdue 24 Aug. Dependent on Xagent fixes."
+          },
+          {
+            "proj": "Token Optimisation + Monitoring",
+            "status": "Parked",
+            "assignee": "Gerard Santos",
+            "eta": "Parked",
+            "rag": "A",
+            "notes": "Both parked with no dates."
+          }
+        ],
+        "wins": [
+          "Xagent AI Chat retesting completed. Quality/accuracy verified by Kaye/Darryl."
+        ],
+        "blockers": [
+          "AI Chat transition dependent on Xagent widget fixes \u2014 PM-322 passed due date.",
+          "Token Optimisation + Monitoring parked. MCP Integration Phase 2 not started."
+        ]
+      },
+      {
+        "name": "CRM Tool",
+        "rag": "AMBER",
+        "source": "HeyCheffy (31 Aug)",
+        "rows": [
+          {
+            "proj": "Phase 3 Scoping + Prototype",
+            "status": "Parked \u2014 overdue 14 Aug",
+            "assignee": "Cheffrey & Marge",
+            "eta": "Parked",
+            "rag": "R",
+            "notes": "Both Phase 3 scoping and prototype parked. Branding decision overdue 24 Aug."
+          },
+          {
+            "proj": "Foundation (Branding, Domain, MCP)",
+            "status": "6 items parked",
+            "assignee": "Cheffrey / Marge",
+            "eta": "Parked",
+            "rag": "A",
+            "notes": "Name/domain/branding decision pending. MCP, Shiftcare integration, MVP Ticketing, AI-First UI/UX all parked."
+          }
+        ],
+        "wins": [
+          "Phase 3 scoping groundwork done. Appointments & Sales Calendar analysis complete."
+        ],
+        "blockers": [
+          "6 items parked \u2014 Phase 3 scoping, prototype, MCP, Shiftcare integration, MVP Ticketing, AI-First UI/UX.",
+          "No branding decision \u2014 blocks go-to-market."
+        ]
+      },
+      {
+        "name": "SIMBA",
+        "rag": "AMBER",
+        "source": "HeyCheffy (31 Aug)",
+        "rows": [
+          {
+            "proj": "AI Agents Phase 1 Integration",
+            "status": "In Progress \u2014 overdue 14 Aug",
+            "assignee": "Cheffrey & Yeohan",
+            "eta": "Overdue",
+            "rag": "R",
+            "notes": "Backend built. Staging deploy pending. Xagent resell pack consolidated and sent to SIMBA."
+          },
+          {
+            "proj": "Marketing POC",
+            "status": "In Progress \u2014 due 21 Aug",
+            "assignee": "Gerard Santos",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "Marketing Roadmap parked."
+          }
+        ],
+        "wins": [
+          "SIMBA Xagent resell pack consolidated and sent. Ready for next integration steps on SIMBA side."
+        ],
+        "blockers": [
+          "Phase 1 integration overdue 14 Aug. Marketing POC missed 21 Aug deadline. Roadmap parked."
+        ]
+      },
+      {
+        "name": "HRM Tool",
+        "rag": "AMBER",
+        "source": "HeyCheffy (31 Aug)",
+        "rows": [
+          {
+            "proj": "Phase 5 Agentic Features",
+            "status": "In Progress \u2014 staging env resetting up",
+            "assignee": "Cheffrey Catalan",
+            "eta": "TBD",
+            "rag": "A",
+            "notes": "Resumed staging environment setup. Need to check latest Claude/Codex changes before release prep."
+          },
+          {
+            "proj": "Prod Support Bot",
+            "status": "Credit exhaustion \u2014 needs optimization",
+            "assignee": "Cheffrey Catalan",
+            "eta": "TBD",
+            "rag": "R",
+            "notes": "Ran out of credits again. Started copying bots to Codex. Needs optimization to prevent stops."
+          }
+        ],
+        "wins": [
+          "Phase 4 post-release fixes deployed. Xero setup-notes correction done. Paper contracts fix (BUG-70/71) verified."
+        ],
+        "blockers": [
+          "Prod support running out of credits \u2014 needs urgent optimization.",
+          "UK adaption parked since 15 Aug. Standalone HRM parked."
+        ]
+      },
+      {
+        "name": "TeohCapital",
+        "rag": "AMBER",
+        "source": "HeyCheffy (31 Aug)",
+        "rows": [
+          {
+            "proj": "gstack Rollout (Jack directive)",
+            "status": "In Progress \u2014 overdue 21 Aug",
+            "assignee": "Cheffrey Catalan",
+            "eta": "Overdue",
+            "rag": "A",
+            "notes": "Install + run /office-hours, port /redteam, /retro, /close-loop patterns."
+          },
+          {
+            "proj": "Portco Brain Architecture",
+            "status": "Approved \u2014 per-portco Xagent accounts elevated",
+            "assignee": "John Rhed Atienza",
+            "eta": "9 Sep",
+            "rag": "G",
+            "notes": "GitHub Read/Write agents in build. API key provisioning in progress. Full rollout ETA 9 Sep."
+          }
+        ],
+        "wins": [
+          "Portco Brain Architecture approved. GitHub Read/Write agents in build. DevOps Rev 9 live. Michelle started \u2014 assigned to Cloud Assess."
+        ],
+        "blockers": [
+          "gstack rollout overdue 21 Aug.",
+          "Top AI 1% talent pipeline: 4 case studies reviewed, 2 interviews scheduled."
+        ]
+      }
+    ]
+  },
+  "2026-08-14": {
+    "weekEnding": "14 August 2026",
+    "dataCurrent": "17 Aug 2026",
+    "note": "<strong>5 RED / 7 AMBER / 0 GREEN across 12 portcos.</strong> HeyCheffy MCP was unreachable this run (401 / expired token) \u2014 built from the vault's HeyCheffy mirror (snapshots current to 17 Aug) + email captures + curated context files. Big week: ShiftCare Roster Signals live with the first 9 beta customers, and Xagent's credential fix (#268) got AI Chat to live ShiftCare data for the first time. Xinference turns RED on a blocked substrate ticket with no stated cause. <strong>Not submitted this week:</strong> Shiftcare product-pipeline weekly email (none on file since July \u2014 AI-agents daily received to 13 Aug), Datapel product-team tracker (stale since 27 Jul; 14 Aug standup notes used), Transvirtual + Personifycare (no fresh input \u2014 board snapshots used). Flagged for chase.",
+    "summary": {
+      "red": 5,
+      "amber": 7,
+      "green": 0,
+      "total": 12
+    },
+    "completions": [
+      { "portco": "Shiftcare", "text": "Roster Signals LIVE IN PRODUCTION for the first nine beta customers (12 Aug) \u2014 the first agent in the programme serving customers outside ShiftCare. Announced to both teams; tuning continues ahead of wider rollout." },
+      { "portco": "Shiftcare", "text": "AI Chat reached live ShiftCare data for the first time (13 Aug) \u2014 Xagent's credential-lifetime fix (#268) deployed overnight and worked; #175 substantially unblocked. Teams agreed to deploy the widget to internal accounts for testing/demos while renewal lands." },
+      { "portco": "Shiftcare", "text": "Invoice Signals architecture switch shipped to prod in the 14 Aug release (DEV-32506/32510, Bibek) + Xagent context grant delivered to the chat widget (DEV-30813, Pete). Phase 2/3 scoping pack out for review (Pei Shan)." },
+      { "portco": "Xagent", "text": "Marketing adoption hit ZERO open product blockers (John B, 13 Aug) \u2014 everything UAT or closed across 8 engaged portcos. Google Sheets + Notion connectors live; HubSpot connector extension (#213) to UAT 12 Aug \u2014 Brendan's HubSpot \u2192 Sheets daily marketing report unblocked." },
+      { "portco": "Xagent", "text": "#236 agent-fabrication fix delivered ahead of schedule \u2192 UAT 14 Aug (unblocks Transvirtual marketing UAT); 'view previous sessions' enhancement closed 14 Aug; #242/#243 browser/HubSpot issues to UAT." },
+      { "portco": "Datapel", "text": "132 tickets completed this cycle; open blocking tickets down 214 \u2192 166 (14 Aug standup). M1 + M2 each under 10 remaining; M1 UAT (Ying Ying) and M2 UAT (Rolie) started. M3 expected under 10 by end of next week, then end-to-end testing." },
+      { "portco": "HRM Tool", "text": "4 PRs shipped to prod 14 Aug, all verified live: paper contracts saveable again (BUG-70/71), duplicate interview invitations fixed (BUG-82/83), contract templates scoped to the owning company (BUG-47), Xero setup-notes correction." },
+      { "portco": "Detrack", "text": "Xagent demo completed for the Support team (Jenny, 13 Aug) \u2014 registration for cloud.xagent.co under way." },
+      { "portco": "SIMBA", "text": "Support-team Xagent onboarding kicked off (Cheff, 10 Aug) \u2014 Thea Mendaros (mobile) signed up and exploring; Yen Sin's account access resolved, adding 3 teammates." },
+      { "portco": "Xinference", "text": "Toby final pricing circulated (Alex, 13 Aug) \u2014 Chris Qin implementing usage tracking to match LLM cost to credits per plan; Cheff + Gerard to test; Summer updating the website." },
+      { "portco": "Cloud Assess", "text": "PM-351 AI onboarding agent recorded as the teach-in example for portco PMs (video + README shared 11 Aug) \u2014 work now visibly in progress after last week's stall." },
+      { "portco": "Transvirtual", "text": "TV2.0 platform repo active \u2014 dev auto-migrate on main merges + staging migration target landed 11 Aug (Xiaojie)." }
+    ],
+    "delays": [
+      { "portco": "Xagent", "text": "11-item overdue stack on the 17 Aug board: Workforce, Performance Testing, Google Ads connector, SSH items, UI/UX streaming, Toby workstream, ad-tracking template \u2014 mostly review, due 12\u201314 Aug. Cloud Assess chatbot-preview fix (internal queries exposed) also passed its 14 Aug ETA." },
+      { "portco": "Xinference", "text": "PM-336 Cloud Phase 2 Performance slipped a third due date (31 Jul \u2192 7 Aug \u2192 14 Aug), still in review. Website migration to WordPress overdue since 7 Aug." },
+      { "portco": "Datapel", "text": "WMS v2 M2/M3/M4 still in review 3+ weeks past due (23/24 Jul, 10 Jul) \u2014 tracker stale since 27 Jul even though day-to-day throughput is real. DevOps Agent Phase 3 blocked past two due dates (1 Aug, 10 Aug); Phase 2 review items overdue 7 Aug." },
+      { "portco": "Shiftcare", "text": "Invoice Signals internal release slipped one day on the architecture switch \u2014 e2e testing 14 Aug, internal release next; AU beta customers still tracking 21 Aug." },
+      { "portco": "Cloud Assess", "text": "ARR 3-26 triage processing (unassigned) overdue since 31 Jul; Q3/Q4 roadmap review (unassigned) overdue since 3 Aug; Question Banks carried a 7 Aug due date with no visible closure." },
+      { "portco": "Personifycare", "text": "PM-343 Patient Account Management due date slipped again to 14 Aug (23 Jul \u2192 7 Aug \u2192 14 Aug) \u2014 in review on its due date, outcome unconfirmed." },
+      { "portco": "SIMBA", "text": "Phase 1 integration (due 14 Aug) and Yeohan onboarding (due 4 Aug) both still in progress and now overdue. Marketing POC follow-up untouched since 24 Jul." },
+      { "portco": "Detrack", "text": "AI Chat \u2192 Xagent transition (PM-322) passed its 14 Aug due date, still in progress \u2014 gated on Xagent widget fixes." },
+      { "portco": "CRM Tool", "text": "Phase 3 scoping + prototype (both due 14 Aug) still in progress, now overdue. Name/domain/branding decisions still pending." }
+    ],
+    "blockages": [
+      { "portco": "Shiftcare / Xagent", "text": "#276 \u2014 chat credentials not renewed on expiry \u2014 the one item keeping AI Chat internal-only. Alex supplied a 2-step OAuth/STS config (14 Aug), Pete implementing; ShiftCare-side dependency FOU-3933 must also merge. No ETA set." },
+      { "portco": "Datapel", "text": "Warehouse-pool degradation RECURRED \u2014 reopened 9 Aug, ~5,140 failures and climbing ~68/hr. The 7 Aug closure was a detection gap, not a fix. Escalated to Bruce 13 Aug; severity + ownership his call." },
+      { "portco": "Datapel", "text": "DWR-1639 stock-parcel identity \u2014 P1-urgent product decision raised 14 Aug (Justin). Sonia's analysis: Option A (real stored parcel record) effectively mandatory \u2014 the only path to lot/batch/bin picking and it closes a silent duplicate-batch-number gap. Blocks Manage Stock Group. Awaiting Pete Rocke / Justin / Francisco." },
+      { "portco": "Cloud Assess", "text": "PM-351 onboarding agent blocked on Xagent run quota (0 actions/month) \u2014 runs labelled 'simulated' until the quota is raised. PM-301/PM-259/PM-104 AI-First tickets blocked a third straight week." },
+      { "portco": "Xinference", "text": "Shared AI substrate for portcos (agent-first re-cut) blocked since 12 Aug with no stated cause \u2014 was 'on track for 16 Aug' last week, due date now passed." },
+      { "portco": "SIMBA", "text": "Xagent platform performance (latency, cold starts, waiting_for_user error) still gates Phase 1 UAT \u2014 raised 17 Jul, no confirmed fix on file." },
+      { "portco": "Transvirtual", "text": "Marketing trial on hold \u2014 Adam Nicholls leaving; account transition to Andrew (walkthrough 13 Aug). Hold is the transition, not the product." },
+      { "portco": "HRM Tool", "text": "BUG-20 NOT fixed \u2014 production still connected to the TEST Xero account; needs someone with live prod-settings access. Smoke-test gap let a real outage report 'success' (14 Aug); a docs-only merge caused a ~90s prod outage." }
+    ],
+    "actions": [
+      { "desc": "Close #276 credential auto-renewal (Pete on Alex's 2-step config; merge FOU-3933) \u2014 unlocks ShiftCare AI Chat beyond internal testing", "owner": "Gerard Santos / Pete (Xagent + SC)", "pri": "HIGH", "portco": "Shiftcare / Xagent" },
+      { "desc": "Explain and unblock the Shared AI substrate ticket (blocked since 12 Aug, due 16 Aug); set a firm date for PM-336 after its third slip", "owner": "John Rhed Atienza / Gerard", "pri": "HIGH", "portco": "Xinference" },
+      { "desc": "Answer the DWR-1639 stock-parcel identity decision (Option A vs B) and close the recurring pool incident with Bruce", "owner": "Justin / Pete Rocke / Bruce", "pri": "HIGH", "portco": "Datapel" },
+      { "desc": "Raise the Xagent run quota so PM-351 runs real (non-simulated); assign the two unassigned overdue items (triage processing, Q3/Q4 roadmap)", "owner": "Cheffrey / Gerard + Marge Lim", "pri": "HIGH", "portco": "Cloud Assess" },
+      { "desc": "Burn down the 11-item overdue review stack; ship the Cloud Assess chatbot-preview fix (internal queries exposed)", "owner": "Gerard Santos", "pri": "HIGH", "portco": "Xagent" },
+      { "desc": "Hit Invoice Signals internal release + AU beta by 21 Aug; support the 9 Roster Signals beta customers", "owner": "Pei Shan Ang / Anton", "pri": "MEDIUM", "portco": "Shiftcare" },
+      { "desc": "Confirm Phase 1 UAT start once the Xagent perf fix lands; answer Richard Tan's comp question and close Yeohan onboarding", "owner": "Cheffrey Catalan", "pri": "MEDIUM", "portco": "SIMBA" },
+      { "desc": "Push the AI Chat \u2192 Xagent transition (PM-322, overdue 14 Aug) past the finish line", "owner": "Gerard / Ed", "pri": "MEDIUM", "portco": "Detrack" },
+      { "desc": "Confirm trial-extension review outcome with Craig; complete the Adam \u2192 Andrew account transition", "owner": "Julius Borja / Andrew", "pri": "MEDIUM", "portco": "Transvirtual" },
+      { "desc": "Close Phase 3 scoping + prototype (overdue 14 Aug); decide name/domain/branding", "owner": "Cheffrey / Marge Lim", "pri": "MEDIUM", "portco": "CRM Tool" },
+      { "desc": "Confirm PM-343 review outcome + whether PM-274 closed; chase the missing weekly tracker", "owner": "Julius Borja", "pri": "MONITOR", "portco": "Personifycare" },
+      { "desc": "Fix BUG-20 (prod on test Xero account) and close the smoke-test gap that passed a dead site", "owner": "Chelsea / Pei Shan", "pri": "MONITOR", "portco": "HRM Tool" },
+      { "desc": "Renew the HeyCheffy API token (MCP unreachable this run); close the PM Assistant review (overdue 30 Jul)", "owner": "Cheffrey Catalan", "pri": "MONITOR", "portco": "TeohCapital" }
+    ],
+    "portcos": [
+      {
+        "name": "Xinference",
+        "rag": "RED",
+        "source": "HeyCheffy mirror (17 Aug) + Toby pricing email (13 Aug)",
+        "rows": [
+          { "proj": "Shared AI substrate for portcos (agent-first re-cut)", "status": "Blocked \u2014 no stated cause", "assignee": "John Rhed Atienza", "eta": "Overdue 16 Aug", "rag": "R", "notes": "Was 'on track for 16 Aug' last week. Blocked since 12 Aug with no explanation on file \u2014 needs a cause and a new ETA." },
+          { "proj": "Cloud Phase 2 \u2014 Performance (PM-336)", "status": "Review \u2014 third due-date slip", "assignee": "Gerard Santos", "eta": "Overdue 14 Aug", "rag": "A", "notes": "Due 31 Jul \u2192 7 Aug \u2192 14 Aug. Performance testing done per earlier notes; awaiting review close-out." },
+          { "proj": "Website migration to WordPress", "status": "In Progress", "assignee": "Cheffrey Catalan", "eta": "Overdue 7 Aug", "rag": "A", "notes": "Running past due since 7 Aug with no completion note." }
+        ],
+        "wins": [
+          "Toby final pricing circulated (Alex, 13 Aug) \u2014 usage tracking being implemented by Chris Qin; Cheff + Gerard testing; Summer updating website."
+        ],
+        "blockers": [
+          "Shared AI substrate blocked with no stated cause \u2014 due date (16 Aug) now passed.",
+          "Region-localization auto-route dropped off the board 6 Aug with no close-out note \u2014 confirm resolved vs dropped."
+        ]
+      },
+      {
+        "name": "Xagent",
+        "rag": "RED",
+        "source": "HeyCheffy mirror (17 Aug) + John B adoption report (13 Aug)",
+        "rows": [
+          { "proj": "Marketing + Support adoption", "status": "8 portcos engaged \u2014 zero open product blockers", "assignee": "John Balbastro / Summer", "eta": "Ongoing", "rag": "G", "notes": "All feedback items UAT or closed (13 Aug). SIMBA + Detrack Support onboarding new accounts; Personify demo 14 Aug." },
+          { "proj": "AI Chat credential renewal (#276)", "status": "Open \u2014 config path supplied 14 Aug", "assignee": "Xagent + Pete (SC)", "eta": "TBD", "rag": "A", "notes": "The one item keeping ShiftCare AI Chat internal-only. #268 closed 13 Aug; #175 substantially unblocked." },
+          { "proj": "Cloud Assess chatbot preview (internal queries exposed)", "status": "In Progress \u2014 ETA 14 Aug passed", "assignee": "Gerard Santos", "eta": "Overdue", "rag": "R", "notes": "Customer-facing preview exposes internal queries. CA certification requirement holding deployment anyway." },
+          { "proj": "Overdue review stack (11 items)", "status": "Review \u2014 overdue 12\u201314 Aug", "assignee": "Gerard Santos", "eta": "Overdue", "rag": "R", "notes": "Workforce, Performance Testing, Google Ads connector, SSH items, UI/UX streaming, ad-tracking template. Biggest backlog in the portfolio." },
+          { "proj": "Toby workstream (TU-20260727-1)", "status": "In Progress \u2014 overdue 14 Aug", "assignee": "Cheffrey & Gerard", "eta": "Overdue", "rag": "A", "notes": "Final pricing circulated 13 Aug; usage-tracking implementation with Chris Qin." }
+        ],
+        "wins": [
+          "#268 credential fix deployed \u2014 ShiftCare AI Chat reached live ShiftCare data for the first time (13 Aug).",
+          "Google Sheets + Notion connectors live; HubSpot extension in UAT 12 Aug \u2014 Brendan's reporting workflow unblocked.",
+          "#236 agent-fabrication fix delivered ahead of schedule \u2192 UAT 14 Aug; marketing adoption at zero open blockers.",
+          "Toby pricing finalised (13 Aug)."
+        ],
+        "blockers": [
+          "#276 credential auto-renewal blocks ShiftCare AI Chat customer rollout.",
+          "Cloud Assess chatbot preview exposing internal queries \u2014 overdue, customer-facing.",
+          "11-item overdue stack; TikTok marketing-agent scope blocked undated."
+        ]
+      },
+      {
+        "name": "Shiftcare",
+        "rag": "AMBER",
+        "source": "Pei Shan daily (13 Aug) + issue monitor (14 Aug) + curated context (14 Aug)",
+        "rows": [
+          { "proj": "Roster Signals", "status": "LIVE \u2014 first 9 beta customers in production (12 Aug)", "assignee": "Toby / Anton / Suyog + Pei Shan", "eta": "Live", "rag": "G", "notes": "First agent in the programme serving customers outside ShiftCare. Tuning continues ahead of wider rollout." },
+          { "proj": "Invoice Signals", "status": "Architecture switch shipped to prod 14 Aug; internal release next", "assignee": "Anton / Bibek + Pei Shan", "eta": "AU beta 21 Aug", "rag": "A", "notes": "Slipped one day on the switch (DEV-32506/32510 in the 14 Aug release). E2E testing 14 Aug; AU beta tracking 21 Aug." },
+          { "proj": "AI Chat \u00d7 Xagent", "status": "Internal-only deployment agreed; #276 still open", "assignee": "Pete / Bibek + Gerard", "eta": "Customer TBD", "rag": "A", "notes": "Widget reached live SC data 13 Aug. Credential auto-renewal (#276) is the last gate before customers; #277/#278/forms fixes under way; test-suite quality bar agreed before rollout." },
+          { "proj": "Next-batch agents (Phase 2/3)", "status": "Scoping pack out for review", "assignee": "Pei Shan Ang", "eta": "TBD", "rag": "A", "notes": "Invoice Signals Phase 2 design feedback in progress; further agents for Messaging + Family Portal being scoped." },
+          { "proj": "Product pipeline (weekly email)", "status": "NOT SUBMITTED this week", "assignee": "Luke / Abner / Karan", "eta": "\u2014", "rag": "A", "notes": "No weekly product update on file since July \u2014 pipeline rows not refreshed this cycle." }
+        ],
+        "wins": [
+          "Roster Signals LIVE with the first nine beta customers (12 Aug).",
+          "AI Chat reached ShiftCare data for the first time (13 Aug) \u2014 #268 closed, #175 substantially unblocked.",
+          "Invoice Signals architecture switch + Xagent context grant in the 14 Aug prod release.",
+          "Phase 2/3 scoping pack out for review (Pei Shan)."
+        ],
+        "blockers": [
+          "#276 credential auto-renewal keeps AI Chat internal-only \u2014 Pete implementing Alex's 2-step config; FOU-3933 must merge. No ETA.",
+          "#141 A2A protocol ETA stale ('complex \u2014 need more time') \u2014 Gerard to provide a fresh ETA.",
+          "HeidiHealth / Allied Health scoping (PM-247) blocked with no movement since 30 Jul.",
+          "Product-pipeline weekly email not submitted."
+        ]
+      },
+      {
+        "name": "Personifycare",
+        "rag": "AMBER",
+        "source": "HeyCheffy mirror (14 Aug) + curated context (12 Aug) \u2014 no fresh submission",
+        "rows": [
+          { "proj": "Cycle 1 \u2014 Patient Account Mgmt (PM-343)", "status": "Review \u2014 on its (revised) due date", "assignee": "Julius Borja", "eta": "14 Aug", "rag": "A", "notes": "Slipped 23 Jul \u2192 7 Aug \u2192 14 Aug. In review on the due date; outcome unconfirmed." },
+          { "proj": "Cycle 1 \u2014 Concurrent Episodes (PM-274)", "status": "Off the board since 11 Aug", "assignee": "Minhao / Aleo / Owen", "eta": "\u2014", "rag": "A", "notes": "Dropped off the tracker 11 Aug \u2014 closure unconfirmed; verify with Julius." },
+          { "proj": "Cycle 2 AI features + Sovereign AI", "status": "Scoping", "assignee": "Julius Borja / Cheffrey", "eta": "Sep\u2013Nov 2026", "rag": "A", "notes": "AI estimates from Ivan/Stuart still pending (since 19 Jul). Sovereign-AI-for-Hospitals scoping aligning." },
+          { "proj": "Xagent adoption", "status": "Demo booked Fri 14 Aug", "assignee": "John Balbastro", "eta": "14 Aug", "rag": "G", "notes": "First Xagent demo for Personify Care \u2014 adoption pipeline opens." }
+        ],
+        "wins": [
+          "Xagent demo scheduled Fri 14 Aug \u2014 adoption pipeline opens for Personify.",
+          "PM-343 reached review on its revised due date."
+        ],
+        "blockers": [
+          "No fresh tracker submission on file this week \u2014 status carried from snapshots + 12 Aug context.",
+          "Cycle 2 AI estimates from Ivan/Stuart still pending."
+        ]
+      },
+      {
+        "name": "Datapel",
+        "rag": "RED",
+        "source": "WMSv2 standup notes (14 Aug) + JIRA captures + HeyCheffy mirror (17 Aug)",
+        "rows": [
+          { "proj": "WMS v2 \u2014 M2/M3/M4", "status": "Review \u2014 3+ weeks overdue", "assignee": "Francisco / Justin", "eta": "Overdue (10\u201324 Jul)", "rag": "R", "notes": "Tracker stale since 27 Jul, but real throughput: 132 tickets done this cycle, blockers 214\u2192166. M1/M2 under 10 each; UAT started (Ying Ying M1, Rolie M2)." },
+          { "proj": "DevOps Agent Phase 3 (Remediator)", "status": "Blocked \u2014 two due dates passed", "assignee": "John Rhed Atienza", "eta": "Overdue 1/10 Aug", "rag": "R", "notes": "'On hold per board' since 22 Jul; no newer explanation on file." },
+          { "proj": "Pool-health incident (recurring)", "status": "OPEN \u2014 reopened 9 Aug", "assignee": "Rhed \u2192 Bruce", "eta": "Live", "rag": "R", "notes": "~5,140 failures, climbing ~68/hr; the 7 Aug closure was a detection gap, not a fix. Escalated to Bruce 13 Aug." },
+          { "proj": "DWR-1639 stock-parcel identity", "status": "P1 decision raised 14 Aug", "assignee": "Justin \u2192 Pete / Francisco", "eta": "This week", "rag": "A", "notes": "Sonia: Option A (stored parcel record) effectively mandatory \u2014 only path to lot/batch/bin picking; closes silent duplicate-batch gap. Blocks Manage Stock Group." },
+          { "proj": "DevOps Phase 2 review items", "status": "Review \u2014 overdue 7 Aug", "assignee": "John Rhed Atienza", "eta": "Overdue", "rag": "A", "notes": "Triage + Diagnostician agents, evaluation report, Phase 2 stragglers." }
+        ],
+        "wins": [
+          "132 tickets completed this cycle; open blocking tickets down 214 \u2192 166 (14 Aug standup).",
+          "M1 + M2 each under 10 remaining; M1/M2 UAT started; M3 to under 10 by end of next week, then e2e testing.",
+          "datapel-wms shipping through 11 Aug (41 commits; Francisco 14, Justin 10)."
+        ],
+        "blockers": [
+          "Pool incident live and growing \u2014 7 Aug closure was a false close; needs Bruce's severity call.",
+          "DWR-1639 stock-parcel identity decision awaiting Pete / Justin / Francisco.",
+          "M2/M3/M4 milestones still months overdue on the tracker; Phase 3 blocked.",
+          "19 prod servers with no DNS record still unowned (flagged daily since 22 Jul)."
+        ]
+      },
+      {
+        "name": "Cloud Assess",
+        "rag": "RED",
+        "source": "HeyCheffy mirror (17 Aug) + curated context (12 Aug) + Xagent adoption report (13 Aug)",
+        "rows": [
+          { "proj": "AI onboarding agent (PM-351)", "status": "In Progress \u2014 quota-blocked", "assignee": "John Rhed Atienza", "eta": "Overdue 14 Aug", "rag": "R", "notes": "Recorded as the 11 Aug teach-in example for portco PMs. Real runs blocked on Xagent run quota (0 actions/month) \u2014 labelled 'simulated'." },
+          { "proj": "AI-First workstream (PM-301 / PM-259 / PM-104)", "status": "Blocked \u2014 third straight week", "assignee": "Marge Lim", "eta": "PM-301 now 30 Sep", "rag": "A", "notes": "All three blocked across every snapshot. Competitive deep-dives (5 Aug) found Evidence Triage + Compliance Watcher genuinely undefended." },
+          { "proj": "ARR 3-26 triage processing", "status": "In Progress \u2014 UNASSIGNED", "assignee": "Unassigned", "eta": "Overdue 31 Jul", "rag": "R", "notes": "Unassigned with a passed due date \u2014 needs an owner. >$467k revenue-protection set targeting 21 Sep." },
+          { "proj": "Q3/Q4 roadmap review", "status": "To Do \u2014 UNASSIGNED", "assignee": "Unassigned", "eta": "Overdue 3 Aug", "rag": "R", "notes": "No owner, no movement since 3 Aug." },
+          { "proj": "WPS release (TU-20260723-15)", "status": "Off the board since 12 Aug", "assignee": "Marge / David", "eta": "Was 10 Aug", "rag": "A", "notes": "Dropped off the snapshot with no completion note \u2014 presumed shipped, unconfirmed." }
+        ],
+        "wins": [
+          "PM-351 recorded as the portfolio teach-in example (video + README, 11 Aug) \u2014 onboarding-agent work visibly in progress.",
+          "Five competitive-analysis deep-dives completed 5 Aug \u2014 Evidence Triage + Compliance Watcher confirmed undefended agent concepts."
+        ],
+        "blockers": [
+          "Xagent run quota (0 actions/month) blocks real PM-351 runs.",
+          "Two unassigned overdue items (triage processing, Q3/Q4 roadmap).",
+          "Ronan's Xagent website-chatbot preview not deployable (internal queries exposed); certification requirement holding.",
+          "AI-First tickets blocked for a third straight week."
+        ]
+      },
+      {
+        "name": "Transvirtual",
+        "rag": "AMBER",
+        "source": "Curated context (12 Aug) + Xagent adoption report (13 Aug) \u2014 no fresh submission",
+        "rows": [
+          { "proj": "Trial extension + scope (TU-20260724-2)", "status": "Review since 7 Aug", "assignee": "Julius Borja", "eta": "Overdue 30 Jul", "rag": "A", "notes": "Moved blocked \u2192 in progress \u2192 review this period. Sign-off unconfirmed \u2014 verify with Craig." },
+          { "proj": "Agent hallucination fix (#236)", "status": "UAT from 14 Aug", "assignee": "Gerard / Xagent", "eta": "UAT", "rag": "A", "notes": "Delivered ahead of schedule; includes HubSpot saved-view filter fix. Was the UAT blocker for Transvirtual's marketing agent." },
+          { "proj": "Marketing agent trial", "status": "On Hold \u2014 account transition", "assignee": "Adam \u2192 Andrew", "eta": "TBD", "rag": "A", "notes": "Adam Nicholls leaving; walkthrough with Andrew Thu 13 Aug. Hold is the transition, not the product." },
+          { "proj": "TV2.0 platform build", "status": "Active \u2014 commits landing", "assignee": "Xiaojie / TV team", "eta": "Ongoing", "rag": "G", "notes": "Dev auto-migrate on main merges + staging migration target landed 11 Aug." }
+        ],
+        "wins": [
+          "Hallucination fix (#236) in UAT 14 Aug \u2014 ahead of schedule.",
+          "TV2.0 monorepo active: migration automation commits 11 Aug.",
+          "'View previous sessions' enhancement closed 14 Aug."
+        ],
+        "blockers": [
+          "Trial-extension sign-off still unconfirmed (overdue since 30 Jul).",
+          "Adam's departure stalls the marketing trial mid-transition.",
+          "Cheff's 31 Jul question (is Phase 1 agentic by design?) still unanswered.",
+          "No fresh submission this week \u2014 built from board + Xagent adoption report."
+        ]
+      },
+      {
+        "name": "Detrack",
+        "rag": "AMBER",
+        "source": "HeyCheffy mirror (17 Aug) + Xagent onboarding status (13 Aug)",
+        "rows": [
+          { "proj": "AI Chat \u2192 Xagent transition (PM-322)", "status": "In Progress \u2014 passed 14 Aug due", "assignee": "Gerard Santos", "eta": "Overdue 14 Aug", "rag": "A", "notes": "Gated on Xagent widget fixes (#276/#277/#278 family). Retesting previously passed." },
+          { "proj": "Token Optimisation (PM-283) + Monitoring (PM-115)", "status": "Blocked \u2014 undated", "assignee": "Gerard Santos", "eta": "\u2014", "rag": "A", "notes": "Blocked the whole window with no due dates \u2014 backlog hygiene." },
+          { "proj": "Xagent Support onboarding", "status": "Registration phase", "assignee": "Jenny + John B", "eta": "This week", "rag": "G", "notes": "Demo completed Thu 13 Aug; registration instructions sent for cloud.xagent.co." },
+          { "proj": "Marketing pilot (Sarah)", "status": "Awaiting reply", "assignee": "Sarah + John B", "eta": "\u2014", "rag": "A", "notes": "Social-listening agent for the weekly competitor-intel report; awaiting Sarah on Slack." }
+        ],
+        "wins": [
+          "Xagent demo completed for Support (Jenny, 13 Aug) \u2014 registration under way."
+        ],
+        "blockers": [
+          "PM-322 passed its 14 Aug due date \u2014 still gated on Xagent-side widget fixes.",
+          "Token Optimisation + Monitoring blocked with no dates.",
+          "Weekly tracker reminder had to be sent 13 Aug \u2014 submission still needs chasing."
+        ]
+      },
+      {
+        "name": "CRM Tool",
+        "rag": "AMBER",
+        "source": "HeyCheffy mirror (17 Aug)",
+        "rows": [
+          { "proj": "Phase 3 scoping + prototype", "status": "In Progress \u2014 passed 14 Aug due", "assignee": "Cheffrey & Marge Lim", "eta": "Overdue 14 Aug", "rag": "A", "notes": "Contacts, Tickets, CRM Reporting, Gym Industry improvements. Prototype in review." },
+          { "proj": "Foundation (name / domain / branding)", "status": "Decisions still pending", "assignee": "Cheffrey Catalan", "eta": "TBD", "rag": "A", "notes": "Unchanged from last week \u2014 blocks the Phase 3 push." },
+          { "proj": "Parked: MCP, Shiftcare integration, AI-First UI/UX, MVP Ticketing", "status": "Parked / blocked awaiting dev resources", "assignee": "Marge / Chelsea", "eta": "\u2014", "rag": "A", "notes": "Parked \u2014 no RAG contribution per rollup rules." }
+        ],
+        "wins": [],
+        "blockers": [
+          "Phase 3 scoping + prototype both overdue 14 Aug.",
+          "Branding / name / domain decisions still pending.",
+          "No dev resource for the parked MCP / integration / UI items."
+        ]
+      },
+      {
+        "name": "SIMBA",
+        "rag": "RED",
+        "source": "HeyCheffy mirror (17 Aug) + onboarding thread (10\u201313 Aug)",
+        "rows": [
+          { "proj": "AI Agents Phase 1 integration", "status": "In Progress \u2014 passed 14 Aug due", "assignee": "Cheffrey & Yeohan", "eta": "Overdue 14 Aug", "rag": "A", "notes": "Two no-auth agents (Horoscope + MBTI) into the new Self Service app. UAT gated on the Xagent perf fix (latency, waiting_for_user)." },
+          { "proj": "Marketing POC follow-up", "status": "To Do \u2014 overdue since 24 Jul", "assignee": "Cheffrey Catalan", "eta": "Overdue", "rag": "R", "notes": "No movement in three weeks. The Marketing POC ticket itself dropped off the board this week \u2014 closure unconfirmed." },
+          { "proj": "Marketing Roadmap", "status": "Blocked \u2014 no date", "assignee": "Gerard Santos", "eta": "\u2014", "rag": "A", "notes": "Oldest-standing blocked item; parked pending the POC outcome." },
+          { "proj": "Onboard Yeohan", "status": "In Progress \u2014 overdue 4 Aug", "assignee": "Cheffrey Catalan", "eta": "Overdue", "rag": "A", "notes": "Tools set up; building. Richard Tan's comp-package question (30 Jul) still unanswered on file." },
+          { "proj": "Xagent Support onboarding", "status": "Under way", "assignee": "Cheff / AF Ciriaco / Thea", "eta": "This week", "rag": "G", "notes": "Kicked off 10 Aug; Thea Mendaros (mobile) exploring; Yen Sin access resolved \u2014 using Xagent for marketing work." }
+        ],
+        "wins": [
+          "Support-team Xagent onboarding kicked off (10 Aug) \u2014 Thea Mendaros signed up; Yen Sin adding 3 teammates.",
+          "Yeohan actively building (mobile app + backend carried from last week)."
+        ],
+        "blockers": [
+          "Xagent platform performance (latency, cold starts, waiting_for_user) still gates Phase 1 UAT \u2014 no confirmed fix.",
+          "Marketing POC follow-up stalled 3 weeks; POC closure unconfirmed.",
+          "Yeohan comp package unanswered since 30 Jul."
+        ]
+      },
+      {
+        "name": "HRM Tool",
+        "rag": "AMBER",
+        "source": "Curated context (14 Aug) + HeyCheffy mirror (17 Aug)",
+        "rows": [
+          { "proj": "Phase 4 post-release fixes", "status": "4 PRs shipped to prod 14 Aug \u2014 verified live", "assignee": "Deploy bots / Chelsea", "eta": "Done 14 Aug", "rag": "G", "notes": "Paper contracts saveable (BUG-70/71), duplicate interview invites fixed (BUG-82/83), contract templates scoped per company (BUG-47), Xero notes docs." },
+          { "proj": "Phase 5 'Hera' agentic HRM", "status": "Strategy / prototype on own branch", "assignee": "Cheffrey / Pei Shan", "eta": "Aug\u2013Oct 2026", "rag": "A", "notes": "Scoping per the redone roadmap; never merged to prod. Agent loop, write actions, approval gate all in Phase 5 scope." },
+          { "proj": "UK adaption (PM-352)", "status": "Blocked \u2014 due 15 Aug", "assignee": "Pei Shan Ang", "eta": "Overdue 15 Aug", "rag": "A", "notes": "Blocked; parked per last week's board. Payroll Awards (PM-209) also blocked, undated." },
+          { "proj": "Deploy pipeline stability", "status": "Smoke-test gap exposed 14 Aug", "assignee": "Deploy Guardian", "eta": "This week", "rag": "A", "notes": "Pipeline reported success while prod was down (14 Aug); a docs-only merge caused a ~90s outage. Standing guidance: a green deploy is not evidence the site is up." }
+        ],
+        "wins": [
+          "4 PRs shipped to prod 14 Aug, all verified live.",
+          "Deploy hardening in place: config-parity checks, smoke tests, three standing bots incl. Deploy Guardian with auto-merge authority for verified-safe PRs."
+        ],
+        "blockers": [
+          "BUG-20 NOT fixed \u2014 prod still connected to the TEST Xero account; needs live prod-settings access.",
+          "Smoke-test gap let a real breakage report 'success' \u2014 third pipeline failure mode in a week.",
+          "Internship employment type doesn't map to ShiftCare (P2) \u2014 no owner yet."
+        ]
+      },
+      {
+        "name": "TeohCapital",
+        "rag": "AMBER",
+        "source": "HeyCheffy mirror (17 Aug) + Xagent adoption report (13 Aug)",
+        "rows": [
+          { "proj": "Xagent adoption drive", "status": "8 portcos engaged \u2014 zero open product blockers", "assignee": "Cheff / Gerard / John B", "eta": "Ongoing", "rag": "G", "notes": "SIMBA Support + Detrack Support onboarding this week; Personify demo 14 Aug." },
+          { "proj": "PM Assistant (TU-20260716-5)", "status": "Review \u2014 overdue 30 Jul", "assignee": "Cheffrey Catalan", "eta": "Overdue", "rag": "A", "notes": "In review, 2+ weeks past due." },
+          { "proj": "Reporting / automation infra", "status": "Weekly board + vault syncs running", "assignee": "Cheffrey / Rhed", "eta": "Ongoing", "rag": "G", "notes": "Board rebuilt from the vault mirror this run despite the HeyCheffy MCP outage." }
+        ],
+        "wins": [
+          "Xagent adoption hit zero open product blockers across 8 engaged portcos (John B, 13 Aug).",
+          "Portco reporting stack held up through a HeyCheffy outage \u2014 board built from the mirror."
+        ],
+        "blockers": [
+          "PM Assistant review overdue since 30 Jul.",
+          "HeyCheffy API token expired / invalid \u2014 MCP unreachable this run; needs renewal."
+        ]
+      }
+    ]
+  },
+  "2026-08-07": {
     "weekEnding": "7 August 2026",
     "dataCurrent": "11 Aug 2026",
     "note": "<strong>4 RED / 8 AMBER / 0 GREEN across 12 portcos.</strong> Refreshed 11 Aug with live HeyCheffy data. Board now reflects actual ticket state (37 overdue, 65 at risk across 283 tickets). Xagent, Datapel, Cloud Assess, SIMBA all RED \u2014 heavy overdue backlogs. Daily logs + live tickets sourced.",
@@ -1072,317 +2831,9 @@ const reports = {
         blockers: ["Marketing POC overdue (due 11 Jul)"],
       },
     ],
-  },
-  "2026-08-14": {
-    "weekEnding": "14 August 2026",
-    "dataCurrent": "17 Aug 2026",
-    "note": "<strong>5 RED / 7 AMBER / 0 GREEN across 12 portcos.</strong> HeyCheffy MCP was unreachable this run (401 / expired token) \u2014 built from the vault's HeyCheffy mirror (snapshots current to 17 Aug) + email captures + curated context files. Big week: ShiftCare Roster Signals live with the first 9 beta customers, and Xagent's credential fix (#268) got AI Chat to live ShiftCare data for the first time. Xinference turns RED on a blocked substrate ticket with no stated cause. <strong>Not submitted this week:</strong> Shiftcare product-pipeline weekly email (none on file since July \u2014 AI-agents daily received to 13 Aug), Datapel product-team tracker (stale since 27 Jul; 14 Aug standup notes used), Transvirtual + Personifycare (no fresh input \u2014 board snapshots used). Flagged for chase.",
-    "summary": {
-      "red": 5,
-      "amber": 7,
-      "green": 0,
-      "total": 12
-    },
-    "completions": [
-      { "portco": "Shiftcare", "text": "Roster Signals LIVE IN PRODUCTION for the first nine beta customers (12 Aug) \u2014 the first agent in the programme serving customers outside ShiftCare. Announced to both teams; tuning continues ahead of wider rollout." },
-      { "portco": "Shiftcare", "text": "AI Chat reached live ShiftCare data for the first time (13 Aug) \u2014 Xagent's credential-lifetime fix (#268) deployed overnight and worked; #175 substantially unblocked. Teams agreed to deploy the widget to internal accounts for testing/demos while renewal lands." },
-      { "portco": "Shiftcare", "text": "Invoice Signals architecture switch shipped to prod in the 14 Aug release (DEV-32506/32510, Bibek) + Xagent context grant delivered to the chat widget (DEV-30813, Pete). Phase 2/3 scoping pack out for review (Pei Shan)." },
-      { "portco": "Xagent", "text": "Marketing adoption hit ZERO open product blockers (John B, 13 Aug) \u2014 everything UAT or closed across 8 engaged portcos. Google Sheets + Notion connectors live; HubSpot connector extension (#213) to UAT 12 Aug \u2014 Brendan's HubSpot \u2192 Sheets daily marketing report unblocked." },
-      { "portco": "Xagent", "text": "#236 agent-fabrication fix delivered ahead of schedule \u2192 UAT 14 Aug (unblocks Transvirtual marketing UAT); 'view previous sessions' enhancement closed 14 Aug; #242/#243 browser/HubSpot issues to UAT." },
-      { "portco": "Datapel", "text": "132 tickets completed this cycle; open blocking tickets down 214 \u2192 166 (14 Aug standup). M1 + M2 each under 10 remaining; M1 UAT (Ying Ying) and M2 UAT (Rolie) started. M3 expected under 10 by end of next week, then end-to-end testing." },
-      { "portco": "HRM Tool", "text": "4 PRs shipped to prod 14 Aug, all verified live: paper contracts saveable again (BUG-70/71), duplicate interview invitations fixed (BUG-82/83), contract templates scoped to the owning company (BUG-47), Xero setup-notes correction." },
-      { "portco": "Detrack", "text": "Xagent demo completed for the Support team (Jenny, 13 Aug) \u2014 registration for cloud.xagent.co under way." },
-      { "portco": "SIMBA", "text": "Support-team Xagent onboarding kicked off (Cheff, 10 Aug) \u2014 Thea Mendaros (mobile) signed up and exploring; Yen Sin's account access resolved, adding 3 teammates." },
-      { "portco": "Xinference", "text": "Toby final pricing circulated (Alex, 13 Aug) \u2014 Chris Qin implementing usage tracking to match LLM cost to credits per plan; Cheff + Gerard to test; Summer updating the website." },
-      { "portco": "Cloud Assess", "text": "PM-351 AI onboarding agent recorded as the teach-in example for portco PMs (video + README shared 11 Aug) \u2014 work now visibly in progress after last week's stall." },
-      { "portco": "Transvirtual", "text": "TV2.0 platform repo active \u2014 dev auto-migrate on main merges + staging migration target landed 11 Aug (Xiaojie)." }
-    ],
-    "delays": [
-      { "portco": "Xagent", "text": "11-item overdue stack on the 17 Aug board: Workforce, Performance Testing, Google Ads connector, SSH items, UI/UX streaming, Toby workstream, ad-tracking template \u2014 mostly review, due 12\u201314 Aug. Cloud Assess chatbot-preview fix (internal queries exposed) also passed its 14 Aug ETA." },
-      { "portco": "Xinference", "text": "PM-336 Cloud Phase 2 Performance slipped a third due date (31 Jul \u2192 7 Aug \u2192 14 Aug), still in review. Website migration to WordPress overdue since 7 Aug." },
-      { "portco": "Datapel", "text": "WMS v2 M2/M3/M4 still in review 3+ weeks past due (23/24 Jul, 10 Jul) \u2014 tracker stale since 27 Jul even though day-to-day throughput is real. DevOps Agent Phase 3 blocked past two due dates (1 Aug, 10 Aug); Phase 2 review items overdue 7 Aug." },
-      { "portco": "Shiftcare", "text": "Invoice Signals internal release slipped one day on the architecture switch \u2014 e2e testing 14 Aug, internal release next; AU beta customers still tracking 21 Aug." },
-      { "portco": "Cloud Assess", "text": "ARR 3-26 triage processing (unassigned) overdue since 31 Jul; Q3/Q4 roadmap review (unassigned) overdue since 3 Aug; Question Banks carried a 7 Aug due date with no visible closure." },
-      { "portco": "Personifycare", "text": "PM-343 Patient Account Management due date slipped again to 14 Aug (23 Jul \u2192 7 Aug \u2192 14 Aug) \u2014 in review on its due date, outcome unconfirmed." },
-      { "portco": "SIMBA", "text": "Phase 1 integration (due 14 Aug) and Yeohan onboarding (due 4 Aug) both still in progress and now overdue. Marketing POC follow-up untouched since 24 Jul." },
-      { "portco": "Detrack", "text": "AI Chat \u2192 Xagent transition (PM-322) passed its 14 Aug due date, still in progress \u2014 gated on Xagent widget fixes." },
-      { "portco": "CRM Tool", "text": "Phase 3 scoping + prototype (both due 14 Aug) still in progress, now overdue. Name/domain/branding decisions still pending." }
-    ],
-    "blockages": [
-      { "portco": "Shiftcare / Xagent", "text": "#276 \u2014 chat credentials not renewed on expiry \u2014 the one item keeping AI Chat internal-only. Alex supplied a 2-step OAuth/STS config (14 Aug), Pete implementing; ShiftCare-side dependency FOU-3933 must also merge. No ETA set." },
-      { "portco": "Datapel", "text": "Warehouse-pool degradation RECURRED \u2014 reopened 9 Aug, ~5,140 failures and climbing ~68/hr. The 7 Aug closure was a detection gap, not a fix. Escalated to Bruce 13 Aug; severity + ownership his call." },
-      { "portco": "Datapel", "text": "DWR-1639 stock-parcel identity \u2014 P1-urgent product decision raised 14 Aug (Justin). Sonia's analysis: Option A (real stored parcel record) effectively mandatory \u2014 the only path to lot/batch/bin picking and it closes a silent duplicate-batch-number gap. Blocks Manage Stock Group. Awaiting Pete Rocke / Justin / Francisco." },
-      { "portco": "Cloud Assess", "text": "PM-351 onboarding agent blocked on Xagent run quota (0 actions/month) \u2014 runs labelled 'simulated' until the quota is raised. PM-301/PM-259/PM-104 AI-First tickets blocked a third straight week." },
-      { "portco": "Xinference", "text": "Shared AI substrate for portcos (agent-first re-cut) blocked since 12 Aug with no stated cause \u2014 was 'on track for 16 Aug' last week, due date now passed." },
-      { "portco": "SIMBA", "text": "Xagent platform performance (latency, cold starts, waiting_for_user error) still gates Phase 1 UAT \u2014 raised 17 Jul, no confirmed fix on file." },
-      { "portco": "Transvirtual", "text": "Marketing trial on hold \u2014 Adam Nicholls leaving; account transition to Andrew (walkthrough 13 Aug). Hold is the transition, not the product." },
-      { "portco": "HRM Tool", "text": "BUG-20 NOT fixed \u2014 production still connected to the TEST Xero account; needs someone with live prod-settings access. Smoke-test gap let a real outage report 'success' (14 Aug); a docs-only merge caused a ~90s prod outage." }
-    ],
-    "actions": [
-      { "desc": "Close #276 credential auto-renewal (Pete on Alex's 2-step config; merge FOU-3933) \u2014 unlocks ShiftCare AI Chat beyond internal testing", "owner": "Gerard Santos / Pete (Xagent + SC)", "pri": "HIGH", "portco": "Shiftcare / Xagent" },
-      { "desc": "Explain and unblock the Shared AI substrate ticket (blocked since 12 Aug, due 16 Aug); set a firm date for PM-336 after its third slip", "owner": "John Rhed Atienza / Gerard", "pri": "HIGH", "portco": "Xinference" },
-      { "desc": "Answer the DWR-1639 stock-parcel identity decision (Option A vs B) and close the recurring pool incident with Bruce", "owner": "Justin / Pete Rocke / Bruce", "pri": "HIGH", "portco": "Datapel" },
-      { "desc": "Raise the Xagent run quota so PM-351 runs real (non-simulated); assign the two unassigned overdue items (triage processing, Q3/Q4 roadmap)", "owner": "Cheffrey / Gerard + Marge Lim", "pri": "HIGH", "portco": "Cloud Assess" },
-      { "desc": "Burn down the 11-item overdue review stack; ship the Cloud Assess chatbot-preview fix (internal queries exposed)", "owner": "Gerard Santos", "pri": "HIGH", "portco": "Xagent" },
-      { "desc": "Hit Invoice Signals internal release + AU beta by 21 Aug; support the 9 Roster Signals beta customers", "owner": "Pei Shan Ang / Anton", "pri": "MEDIUM", "portco": "Shiftcare" },
-      { "desc": "Confirm Phase 1 UAT start once the Xagent perf fix lands; answer Richard Tan's comp question and close Yeohan onboarding", "owner": "Cheffrey Catalan", "pri": "MEDIUM", "portco": "SIMBA" },
-      { "desc": "Push the AI Chat \u2192 Xagent transition (PM-322, overdue 14 Aug) past the finish line", "owner": "Gerard / Ed", "pri": "MEDIUM", "portco": "Detrack" },
-      { "desc": "Confirm trial-extension review outcome with Craig; complete the Adam \u2192 Andrew account transition", "owner": "Julius Borja / Andrew", "pri": "MEDIUM", "portco": "Transvirtual" },
-      { "desc": "Close Phase 3 scoping + prototype (overdue 14 Aug); decide name/domain/branding", "owner": "Cheffrey / Marge Lim", "pri": "MEDIUM", "portco": "CRM Tool" },
-      { "desc": "Confirm PM-343 review outcome + whether PM-274 closed; chase the missing weekly tracker", "owner": "Julius Borja", "pri": "MONITOR", "portco": "Personifycare" },
-      { "desc": "Fix BUG-20 (prod on test Xero account) and close the smoke-test gap that passed a dead site", "owner": "Chelsea / Pei Shan", "pri": "MONITOR", "portco": "HRM Tool" },
-      { "desc": "Renew the HeyCheffy API token (MCP unreachable this run); close the PM Assistant review (overdue 30 Jul)", "owner": "Cheffrey Catalan", "pri": "MONITOR", "portco": "TeohCapital" }
-    ],
-    "portcos": [
-      {
-        "name": "Xinference",
-        "rag": "RED",
-        "source": "HeyCheffy mirror (17 Aug) + Toby pricing email (13 Aug)",
-        "rows": [
-          { "proj": "Shared AI substrate for portcos (agent-first re-cut)", "status": "Blocked \u2014 no stated cause", "assignee": "John Rhed Atienza", "eta": "Overdue 16 Aug", "rag": "R", "notes": "Was 'on track for 16 Aug' last week. Blocked since 12 Aug with no explanation on file \u2014 needs a cause and a new ETA." },
-          { "proj": "Cloud Phase 2 \u2014 Performance (PM-336)", "status": "Review \u2014 third due-date slip", "assignee": "Gerard Santos", "eta": "Overdue 14 Aug", "rag": "A", "notes": "Due 31 Jul \u2192 7 Aug \u2192 14 Aug. Performance testing done per earlier notes; awaiting review close-out." },
-          { "proj": "Website migration to WordPress", "status": "In Progress", "assignee": "Cheffrey Catalan", "eta": "Overdue 7 Aug", "rag": "A", "notes": "Running past due since 7 Aug with no completion note." }
-        ],
-        "wins": [
-          "Toby final pricing circulated (Alex, 13 Aug) \u2014 usage tracking being implemented by Chris Qin; Cheff + Gerard testing; Summer updating website."
-        ],
-        "blockers": [
-          "Shared AI substrate blocked with no stated cause \u2014 due date (16 Aug) now passed.",
-          "Region-localization auto-route dropped off the board 6 Aug with no close-out note \u2014 confirm resolved vs dropped."
-        ]
-      },
-      {
-        "name": "Xagent",
-        "rag": "RED",
-        "source": "HeyCheffy mirror (17 Aug) + John B adoption report (13 Aug)",
-        "rows": [
-          { "proj": "Marketing + Support adoption", "status": "8 portcos engaged \u2014 zero open product blockers", "assignee": "John Balbastro / Summer", "eta": "Ongoing", "rag": "G", "notes": "All feedback items UAT or closed (13 Aug). SIMBA + Detrack Support onboarding new accounts; Personify demo 14 Aug." },
-          { "proj": "AI Chat credential renewal (#276)", "status": "Open \u2014 config path supplied 14 Aug", "assignee": "Xagent + Pete (SC)", "eta": "TBD", "rag": "A", "notes": "The one item keeping ShiftCare AI Chat internal-only. #268 closed 13 Aug; #175 substantially unblocked." },
-          { "proj": "Cloud Assess chatbot preview (internal queries exposed)", "status": "In Progress \u2014 ETA 14 Aug passed", "assignee": "Gerard Santos", "eta": "Overdue", "rag": "R", "notes": "Customer-facing preview exposes internal queries. CA certification requirement holding deployment anyway." },
-          { "proj": "Overdue review stack (11 items)", "status": "Review \u2014 overdue 12\u201314 Aug", "assignee": "Gerard Santos", "eta": "Overdue", "rag": "R", "notes": "Workforce, Performance Testing, Google Ads connector, SSH items, UI/UX streaming, ad-tracking template. Biggest backlog in the portfolio." },
-          { "proj": "Toby workstream (TU-20260727-1)", "status": "In Progress \u2014 overdue 14 Aug", "assignee": "Cheffrey & Gerard", "eta": "Overdue", "rag": "A", "notes": "Final pricing circulated 13 Aug; usage-tracking implementation with Chris Qin." }
-        ],
-        "wins": [
-          "#268 credential fix deployed \u2014 ShiftCare AI Chat reached live ShiftCare data for the first time (13 Aug).",
-          "Google Sheets + Notion connectors live; HubSpot extension in UAT 12 Aug \u2014 Brendan's reporting workflow unblocked.",
-          "#236 agent-fabrication fix delivered ahead of schedule \u2192 UAT 14 Aug; marketing adoption at zero open blockers.",
-          "Toby pricing finalised (13 Aug)."
-        ],
-        "blockers": [
-          "#276 credential auto-renewal blocks ShiftCare AI Chat customer rollout.",
-          "Cloud Assess chatbot preview exposing internal queries \u2014 overdue, customer-facing.",
-          "11-item overdue stack; TikTok marketing-agent scope blocked undated."
-        ]
-      },
-      {
-        "name": "Shiftcare",
-        "rag": "AMBER",
-        "source": "Pei Shan daily (13 Aug) + issue monitor (14 Aug) + curated context (14 Aug)",
-        "rows": [
-          { "proj": "Roster Signals", "status": "LIVE \u2014 first 9 beta customers in production (12 Aug)", "assignee": "Toby / Anton / Suyog + Pei Shan", "eta": "Live", "rag": "G", "notes": "First agent in the programme serving customers outside ShiftCare. Tuning continues ahead of wider rollout." },
-          { "proj": "Invoice Signals", "status": "Architecture switch shipped to prod 14 Aug; internal release next", "assignee": "Anton / Bibek + Pei Shan", "eta": "AU beta 21 Aug", "rag": "A", "notes": "Slipped one day on the switch (DEV-32506/32510 in the 14 Aug release). E2E testing 14 Aug; AU beta tracking 21 Aug." },
-          { "proj": "AI Chat \u00d7 Xagent", "status": "Internal-only deployment agreed; #276 still open", "assignee": "Pete / Bibek + Gerard", "eta": "Customer TBD", "rag": "A", "notes": "Widget reached live SC data 13 Aug. Credential auto-renewal (#276) is the last gate before customers; #277/#278/forms fixes under way; test-suite quality bar agreed before rollout." },
-          { "proj": "Next-batch agents (Phase 2/3)", "status": "Scoping pack out for review", "assignee": "Pei Shan Ang", "eta": "TBD", "rag": "A", "notes": "Invoice Signals Phase 2 design feedback in progress; further agents for Messaging + Family Portal being scoped." },
-          { "proj": "Product pipeline (weekly email)", "status": "NOT SUBMITTED this week", "assignee": "Luke / Abner / Karan", "eta": "\u2014", "rag": "A", "notes": "No weekly product update on file since July \u2014 pipeline rows not refreshed this cycle." }
-        ],
-        "wins": [
-          "Roster Signals LIVE with the first nine beta customers (12 Aug).",
-          "AI Chat reached ShiftCare data for the first time (13 Aug) \u2014 #268 closed, #175 substantially unblocked.",
-          "Invoice Signals architecture switch + Xagent context grant in the 14 Aug prod release.",
-          "Phase 2/3 scoping pack out for review (Pei Shan)."
-        ],
-        "blockers": [
-          "#276 credential auto-renewal keeps AI Chat internal-only \u2014 Pete implementing Alex's 2-step config; FOU-3933 must merge. No ETA.",
-          "#141 A2A protocol ETA stale ('complex \u2014 need more time') \u2014 Gerard to provide a fresh ETA.",
-          "HeidiHealth / Allied Health scoping (PM-247) blocked with no movement since 30 Jul.",
-          "Product-pipeline weekly email not submitted."
-        ]
-      },
-      {
-        "name": "Personifycare",
-        "rag": "AMBER",
-        "source": "HeyCheffy mirror (14 Aug) + curated context (12 Aug) \u2014 no fresh submission",
-        "rows": [
-          { "proj": "Cycle 1 \u2014 Patient Account Mgmt (PM-343)", "status": "Review \u2014 on its (revised) due date", "assignee": "Julius Borja", "eta": "14 Aug", "rag": "A", "notes": "Slipped 23 Jul \u2192 7 Aug \u2192 14 Aug. In review on the due date; outcome unconfirmed." },
-          { "proj": "Cycle 1 \u2014 Concurrent Episodes (PM-274)", "status": "Off the board since 11 Aug", "assignee": "Minhao / Aleo / Owen", "eta": "\u2014", "rag": "A", "notes": "Dropped off the tracker 11 Aug \u2014 closure unconfirmed; verify with Julius." },
-          { "proj": "Cycle 2 AI features + Sovereign AI", "status": "Scoping", "assignee": "Julius Borja / Cheffrey", "eta": "Sep\u2013Nov 2026", "rag": "A", "notes": "AI estimates from Ivan/Stuart still pending (since 19 Jul). Sovereign-AI-for-Hospitals scoping aligning." },
-          { "proj": "Xagent adoption", "status": "Demo booked Fri 14 Aug", "assignee": "John Balbastro", "eta": "14 Aug", "rag": "G", "notes": "First Xagent demo for Personify Care \u2014 adoption pipeline opens." }
-        ],
-        "wins": [
-          "Xagent demo scheduled Fri 14 Aug \u2014 adoption pipeline opens for Personify.",
-          "PM-343 reached review on its revised due date."
-        ],
-        "blockers": [
-          "No fresh tracker submission on file this week \u2014 status carried from snapshots + 12 Aug context.",
-          "Cycle 2 AI estimates from Ivan/Stuart still pending."
-        ]
-      },
-      {
-        "name": "Datapel",
-        "rag": "RED",
-        "source": "WMSv2 standup notes (14 Aug) + JIRA captures + HeyCheffy mirror (17 Aug)",
-        "rows": [
-          { "proj": "WMS v2 \u2014 M2/M3/M4", "status": "Review \u2014 3+ weeks overdue", "assignee": "Francisco / Justin", "eta": "Overdue (10\u201324 Jul)", "rag": "R", "notes": "Tracker stale since 27 Jul, but real throughput: 132 tickets done this cycle, blockers 214\u2192166. M1/M2 under 10 each; UAT started (Ying Ying M1, Rolie M2)." },
-          { "proj": "DevOps Agent Phase 3 (Remediator)", "status": "Blocked \u2014 two due dates passed", "assignee": "John Rhed Atienza", "eta": "Overdue 1/10 Aug", "rag": "R", "notes": "'On hold per board' since 22 Jul; no newer explanation on file." },
-          { "proj": "Pool-health incident (recurring)", "status": "OPEN \u2014 reopened 9 Aug", "assignee": "Rhed \u2192 Bruce", "eta": "Live", "rag": "R", "notes": "~5,140 failures, climbing ~68/hr; the 7 Aug closure was a detection gap, not a fix. Escalated to Bruce 13 Aug." },
-          { "proj": "DWR-1639 stock-parcel identity", "status": "P1 decision raised 14 Aug", "assignee": "Justin \u2192 Pete / Francisco", "eta": "This week", "rag": "A", "notes": "Sonia: Option A (stored parcel record) effectively mandatory \u2014 only path to lot/batch/bin picking; closes silent duplicate-batch gap. Blocks Manage Stock Group." },
-          { "proj": "DevOps Phase 2 review items", "status": "Review \u2014 overdue 7 Aug", "assignee": "John Rhed Atienza", "eta": "Overdue", "rag": "A", "notes": "Triage + Diagnostician agents, evaluation report, Phase 2 stragglers." }
-        ],
-        "wins": [
-          "132 tickets completed this cycle; open blocking tickets down 214 \u2192 166 (14 Aug standup).",
-          "M1 + M2 each under 10 remaining; M1/M2 UAT started; M3 to under 10 by end of next week, then e2e testing.",
-          "datapel-wms shipping through 11 Aug (41 commits; Francisco 14, Justin 10)."
-        ],
-        "blockers": [
-          "Pool incident live and growing \u2014 7 Aug closure was a false close; needs Bruce's severity call.",
-          "DWR-1639 stock-parcel identity decision awaiting Pete / Justin / Francisco.",
-          "M2/M3/M4 milestones still months overdue on the tracker; Phase 3 blocked.",
-          "19 prod servers with no DNS record still unowned (flagged daily since 22 Jul)."
-        ]
-      },
-      {
-        "name": "Cloud Assess",
-        "rag": "RED",
-        "source": "HeyCheffy mirror (17 Aug) + curated context (12 Aug) + Xagent adoption report (13 Aug)",
-        "rows": [
-          { "proj": "AI onboarding agent (PM-351)", "status": "In Progress \u2014 quota-blocked", "assignee": "John Rhed Atienza", "eta": "Overdue 14 Aug", "rag": "R", "notes": "Recorded as the 11 Aug teach-in example for portco PMs. Real runs blocked on Xagent run quota (0 actions/month) \u2014 labelled 'simulated'." },
-          { "proj": "AI-First workstream (PM-301 / PM-259 / PM-104)", "status": "Blocked \u2014 third straight week", "assignee": "Marge Lim", "eta": "PM-301 now 30 Sep", "rag": "A", "notes": "All three blocked across every snapshot. Competitive deep-dives (5 Aug) found Evidence Triage + Compliance Watcher genuinely undefended." },
-          { "proj": "ARR 3-26 triage processing", "status": "In Progress \u2014 UNASSIGNED", "assignee": "Unassigned", "eta": "Overdue 31 Jul", "rag": "R", "notes": "Unassigned with a passed due date \u2014 needs an owner. >$467k revenue-protection set targeting 21 Sep." },
-          { "proj": "Q3/Q4 roadmap review", "status": "To Do \u2014 UNASSIGNED", "assignee": "Unassigned", "eta": "Overdue 3 Aug", "rag": "R", "notes": "No owner, no movement since 3 Aug." },
-          { "proj": "WPS release (TU-20260723-15)", "status": "Off the board since 12 Aug", "assignee": "Marge / David", "eta": "Was 10 Aug", "rag": "A", "notes": "Dropped off the snapshot with no completion note \u2014 presumed shipped, unconfirmed." }
-        ],
-        "wins": [
-          "PM-351 recorded as the portfolio teach-in example (video + README, 11 Aug) \u2014 onboarding-agent work visibly in progress.",
-          "Five competitive-analysis deep-dives completed 5 Aug \u2014 Evidence Triage + Compliance Watcher confirmed undefended agent concepts."
-        ],
-        "blockers": [
-          "Xagent run quota (0 actions/month) blocks real PM-351 runs.",
-          "Two unassigned overdue items (triage processing, Q3/Q4 roadmap).",
-          "Ronan's Xagent website-chatbot preview not deployable (internal queries exposed); certification requirement holding.",
-          "AI-First tickets blocked for a third straight week."
-        ]
-      },
-      {
-        "name": "Transvirtual",
-        "rag": "AMBER",
-        "source": "Curated context (12 Aug) + Xagent adoption report (13 Aug) \u2014 no fresh submission",
-        "rows": [
-          { "proj": "Trial extension + scope (TU-20260724-2)", "status": "Review since 7 Aug", "assignee": "Julius Borja", "eta": "Overdue 30 Jul", "rag": "A", "notes": "Moved blocked \u2192 in progress \u2192 review this period. Sign-off unconfirmed \u2014 verify with Craig." },
-          { "proj": "Agent hallucination fix (#236)", "status": "UAT from 14 Aug", "assignee": "Gerard / Xagent", "eta": "UAT", "rag": "A", "notes": "Delivered ahead of schedule; includes HubSpot saved-view filter fix. Was the UAT blocker for Transvirtual's marketing agent." },
-          { "proj": "Marketing agent trial", "status": "On Hold \u2014 account transition", "assignee": "Adam \u2192 Andrew", "eta": "TBD", "rag": "A", "notes": "Adam Nicholls leaving; walkthrough with Andrew Thu 13 Aug. Hold is the transition, not the product." },
-          { "proj": "TV2.0 platform build", "status": "Active \u2014 commits landing", "assignee": "Xiaojie / TV team", "eta": "Ongoing", "rag": "G", "notes": "Dev auto-migrate on main merges + staging migration target landed 11 Aug." }
-        ],
-        "wins": [
-          "Hallucination fix (#236) in UAT 14 Aug \u2014 ahead of schedule.",
-          "TV2.0 monorepo active: migration automation commits 11 Aug.",
-          "'View previous sessions' enhancement closed 14 Aug."
-        ],
-        "blockers": [
-          "Trial-extension sign-off still unconfirmed (overdue since 30 Jul).",
-          "Adam's departure stalls the marketing trial mid-transition.",
-          "Cheff's 31 Jul question (is Phase 1 agentic by design?) still unanswered.",
-          "No fresh submission this week \u2014 built from board + Xagent adoption report."
-        ]
-      },
-      {
-        "name": "Detrack",
-        "rag": "AMBER",
-        "source": "HeyCheffy mirror (17 Aug) + Xagent onboarding status (13 Aug)",
-        "rows": [
-          { "proj": "AI Chat \u2192 Xagent transition (PM-322)", "status": "In Progress \u2014 passed 14 Aug due", "assignee": "Gerard Santos", "eta": "Overdue 14 Aug", "rag": "A", "notes": "Gated on Xagent widget fixes (#276/#277/#278 family). Retesting previously passed." },
-          { "proj": "Token Optimisation (PM-283) + Monitoring (PM-115)", "status": "Blocked \u2014 undated", "assignee": "Gerard Santos", "eta": "\u2014", "rag": "A", "notes": "Blocked the whole window with no due dates \u2014 backlog hygiene." },
-          { "proj": "Xagent Support onboarding", "status": "Registration phase", "assignee": "Jenny + John B", "eta": "This week", "rag": "G", "notes": "Demo completed Thu 13 Aug; registration instructions sent for cloud.xagent.co." },
-          { "proj": "Marketing pilot (Sarah)", "status": "Awaiting reply", "assignee": "Sarah + John B", "eta": "\u2014", "rag": "A", "notes": "Social-listening agent for the weekly competitor-intel report; awaiting Sarah on Slack." }
-        ],
-        "wins": [
-          "Xagent demo completed for Support (Jenny, 13 Aug) \u2014 registration under way."
-        ],
-        "blockers": [
-          "PM-322 passed its 14 Aug due date \u2014 still gated on Xagent-side widget fixes.",
-          "Token Optimisation + Monitoring blocked with no dates.",
-          "Weekly tracker reminder had to be sent 13 Aug \u2014 submission still needs chasing."
-        ]
-      },
-      {
-        "name": "CRM Tool",
-        "rag": "AMBER",
-        "source": "HeyCheffy mirror (17 Aug)",
-        "rows": [
-          { "proj": "Phase 3 scoping + prototype", "status": "In Progress \u2014 passed 14 Aug due", "assignee": "Cheffrey & Marge Lim", "eta": "Overdue 14 Aug", "rag": "A", "notes": "Contacts, Tickets, CRM Reporting, Gym Industry improvements. Prototype in review." },
-          { "proj": "Foundation (name / domain / branding)", "status": "Decisions still pending", "assignee": "Cheffrey Catalan", "eta": "TBD", "rag": "A", "notes": "Unchanged from last week \u2014 blocks the Phase 3 push." },
-          { "proj": "Parked: MCP, Shiftcare integration, AI-First UI/UX, MVP Ticketing", "status": "Parked / blocked awaiting dev resources", "assignee": "Marge / Chelsea", "eta": "\u2014", "rag": "A", "notes": "Parked \u2014 no RAG contribution per rollup rules." }
-        ],
-        "wins": [],
-        "blockers": [
-          "Phase 3 scoping + prototype both overdue 14 Aug.",
-          "Branding / name / domain decisions still pending.",
-          "No dev resource for the parked MCP / integration / UI items."
-        ]
-      },
-      {
-        "name": "SIMBA",
-        "rag": "RED",
-        "source": "HeyCheffy mirror (17 Aug) + onboarding thread (10\u201313 Aug)",
-        "rows": [
-          { "proj": "AI Agents Phase 1 integration", "status": "In Progress \u2014 passed 14 Aug due", "assignee": "Cheffrey & Yeohan", "eta": "Overdue 14 Aug", "rag": "A", "notes": "Two no-auth agents (Horoscope + MBTI) into the new Self Service app. UAT gated on the Xagent perf fix (latency, waiting_for_user)." },
-          { "proj": "Marketing POC follow-up", "status": "To Do \u2014 overdue since 24 Jul", "assignee": "Cheffrey Catalan", "eta": "Overdue", "rag": "R", "notes": "No movement in three weeks. The Marketing POC ticket itself dropped off the board this week \u2014 closure unconfirmed." },
-          { "proj": "Marketing Roadmap", "status": "Blocked \u2014 no date", "assignee": "Gerard Santos", "eta": "\u2014", "rag": "A", "notes": "Oldest-standing blocked item; parked pending the POC outcome." },
-          { "proj": "Onboard Yeohan", "status": "In Progress \u2014 overdue 4 Aug", "assignee": "Cheffrey Catalan", "eta": "Overdue", "rag": "A", "notes": "Tools set up; building. Richard Tan's comp-package question (30 Jul) still unanswered on file." },
-          { "proj": "Xagent Support onboarding", "status": "Under way", "assignee": "Cheff / AF Ciriaco / Thea", "eta": "This week", "rag": "G", "notes": "Kicked off 10 Aug; Thea Mendaros (mobile) exploring; Yen Sin access resolved \u2014 using Xagent for marketing work." }
-        ],
-        "wins": [
-          "Support-team Xagent onboarding kicked off (10 Aug) \u2014 Thea Mendaros signed up; Yen Sin adding 3 teammates.",
-          "Yeohan actively building (mobile app + backend carried from last week)."
-        ],
-        "blockers": [
-          "Xagent platform performance (latency, cold starts, waiting_for_user) still gates Phase 1 UAT \u2014 no confirmed fix.",
-          "Marketing POC follow-up stalled 3 weeks; POC closure unconfirmed.",
-          "Yeohan comp package unanswered since 30 Jul."
-        ]
-      },
-      {
-        "name": "HRM Tool",
-        "rag": "AMBER",
-        "source": "Curated context (14 Aug) + HeyCheffy mirror (17 Aug)",
-        "rows": [
-          { "proj": "Phase 4 post-release fixes", "status": "4 PRs shipped to prod 14 Aug \u2014 verified live", "assignee": "Deploy bots / Chelsea", "eta": "Done 14 Aug", "rag": "G", "notes": "Paper contracts saveable (BUG-70/71), duplicate interview invites fixed (BUG-82/83), contract templates scoped per company (BUG-47), Xero notes docs." },
-          { "proj": "Phase 5 'Hera' agentic HRM", "status": "Strategy / prototype on own branch", "assignee": "Cheffrey / Pei Shan", "eta": "Aug\u2013Oct 2026", "rag": "A", "notes": "Scoping per the redone roadmap; never merged to prod. Agent loop, write actions, approval gate all in Phase 5 scope." },
-          { "proj": "UK adaption (PM-352)", "status": "Blocked \u2014 due 15 Aug", "assignee": "Pei Shan Ang", "eta": "Overdue 15 Aug", "rag": "A", "notes": "Blocked; parked per last week's board. Payroll Awards (PM-209) also blocked, undated." },
-          { "proj": "Deploy pipeline stability", "status": "Smoke-test gap exposed 14 Aug", "assignee": "Deploy Guardian", "eta": "This week", "rag": "A", "notes": "Pipeline reported success while prod was down (14 Aug); a docs-only merge caused a ~90s outage. Standing guidance: a green deploy is not evidence the site is up." }
-        ],
-        "wins": [
-          "4 PRs shipped to prod 14 Aug, all verified live.",
-          "Deploy hardening in place: config-parity checks, smoke tests, three standing bots incl. Deploy Guardian with auto-merge authority for verified-safe PRs."
-        ],
-        "blockers": [
-          "BUG-20 NOT fixed \u2014 prod still connected to the TEST Xero account; needs live prod-settings access.",
-          "Smoke-test gap let a real breakage report 'success' \u2014 third pipeline failure mode in a week.",
-          "Internship employment type doesn't map to ShiftCare (P2) \u2014 no owner yet."
-        ]
-      },
-      {
-        "name": "TeohCapital",
-        "rag": "AMBER",
-        "source": "HeyCheffy mirror (17 Aug) + Xagent adoption report (13 Aug)",
-        "rows": [
-          { "proj": "Xagent adoption drive", "status": "8 portcos engaged \u2014 zero open product blockers", "assignee": "Cheff / Gerard / John B", "eta": "Ongoing", "rag": "G", "notes": "SIMBA Support + Detrack Support onboarding this week; Personify demo 14 Aug." },
-          { "proj": "PM Assistant (TU-20260716-5)", "status": "Review \u2014 overdue 30 Jul", "assignee": "Cheffrey Catalan", "eta": "Overdue", "rag": "A", "notes": "In review, 2+ weeks past due." },
-          { "proj": "Reporting / automation infra", "status": "Weekly board + vault syncs running", "assignee": "Cheffrey / Rhed", "eta": "Ongoing", "rag": "G", "notes": "Board rebuilt from the vault mirror this run despite the HeyCheffy MCP outage." }
-        ],
-        "wins": [
-          "Xagent adoption hit zero open product blockers across 8 engaged portcos (John B, 13 Aug).",
-          "Portco reporting stack held up through a HeyCheffy outage \u2014 board built from the mirror."
-        ],
-        "blockers": [
-          "PM Assistant review overdue since 30 Jul.",
-          "HeyCheffy API token expired / invalid \u2014 MCP unreachable this run; needs renewal."
-        ]
-      }
-    ]
   }
 };
-
-let currentWeek = "2026-08-14";
+let currentWeek = "2026-09-04";
 
 function pickWeek() {
   const sel = document.getElementById("weekSelect");
